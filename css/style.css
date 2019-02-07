@@ -35,12 +35,18 @@ nav {
   width: 50px;
   height: 50px;
   background-color: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .nav-button {
   width: 50px;
   height: 50px;
   background-color: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .content {
