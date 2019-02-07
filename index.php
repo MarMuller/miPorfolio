@@ -14,6 +14,10 @@
     <!-- HEADER -->
     <?php include('includes/header.php');?>
 
+    <div class="banner">
+      Banner!
+    </div>
+
     <div class="content">
       Acá va el contenido!
     </div>
