@@ -5,7 +5,7 @@
     <?php include('includes/divider.php');?>
 
     <div class="footer-logo">
-      <?php echo file_get_contents("images/svg/marmuller-logo-01.svg"); ?>
+      <a href="#"><?php echo file_get_contents("images/svg/marmuller-logo-01.svg"); ?></a>
     </div>
 
     <div id="footer-nav-buttons">

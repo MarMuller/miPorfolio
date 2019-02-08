@@ -2,9 +2,9 @@
 
   <nav>
 
-    <div id="logo">
+    <a href="#"><div id="logo">
       <?php echo file_get_contents("images/svg/marmuller-logo-02.svg"); ?>
-    </div>
+    </div></a>
 
     <div id="nav-button">
       <i class="fa fa-bars"></i>

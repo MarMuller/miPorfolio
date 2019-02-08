@@ -18,6 +18,7 @@ h3 {
 a {
   color: inherit; /* no blue */
   text-decoration: inherit; /* no underline */
+  transition: 0.5s ease;
 }
 
 /* IMAGE PROPERTIES */
@@ -120,6 +121,7 @@ nav {
   height: 350px;
   margin-bottom: 20px;
   background-color: #080d11;
+  border-bottom: 1px solid #1a1a1a;
   top: -50px;
   overflow: hidden;
   display: flex;
@@ -150,7 +152,7 @@ nav {
 
 footer {
   width: 100%;
-  max-width: 1024px;
+  /* max-width: 1024px; */
   height: 150px;
   color: white;
 }
@@ -190,12 +192,13 @@ footer {
   margin: 0 5px 0 5px;
   font-size:18px;
   color: #666;
+  transform: translateY(0px);
+  transition: 0.5s ease;
 }
 
 .redes i:hover {
   transform: translateY(-5px);
   transition: 0.5s ease;
-  color: #666;
 }
 
 #footer-nav-buttons {
