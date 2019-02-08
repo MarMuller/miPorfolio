@@ -10,7 +10,7 @@
       <i class="fa fa-bars"></i>
     </div>
 
-    <div id="nav-mobile">
+    <div id="nav-buttons">
       <ul id="nav-list">
         <li><a href="#">Sobre mí</a></li>
         <li><a href="#">Diseño</a></li>

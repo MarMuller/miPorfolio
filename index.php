@@ -16,9 +16,7 @@
     <?php include('includes/header.php');?>
 
     <!-- CONTENEDOR PRINCIPAL -->
-    <div class="banner">
-      <img class="" src="images/bg/poisoned.png" alt="">
-    </div>
+    <?php include('includes/main-banner.php');?>
 
     <div class="content">
       Acá va el contenido!
@@ -26,9 +24,6 @@
 
     <!-- FOOTER -->
     <?php include('includes/footer.php');?>
-
-    <div id="curved-line">
-    </div>
 
   </body>
 

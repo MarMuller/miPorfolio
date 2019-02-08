@@ -4,7 +4,7 @@ window.onload = function() {
 
   //NavBotón
   var navButton = document.querySelector("#nav-button");
-  var navMobile = document.querySelector("#nav-mobile");
+  var navMobile = document.querySelector("#nav-buttons");
   var navLogo = document.querySelector("#logo");
 
   navButton.addEventListener('click', function () {
