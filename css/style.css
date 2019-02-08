@@ -71,7 +71,7 @@ nav {
 }
 
 #logo path {
-  fill: white;
+  fill: #ccc;
 }
 
 #nav-button {
@@ -116,7 +116,7 @@ nav {
 
 .banner {
   width: 100%;
-  height: 500px;
+  height: 350px;
   margin-bottom: 20px;
   background-color: #080d11;
   top: -50px;
@@ -160,6 +160,14 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+}
+
+.line {
+  width: 100%;
+  height: 1px;
+  background-color: #1a1a1a;
+  margin-top: 20px;
 }
 
 .footer-divider svg {
@@ -168,6 +176,22 @@ footer {
 
 .footer-divider path {
   fill: gray;
+}
+
+.redes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.redes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.redes i {
+  margin: 0 5px 0 5px;
 }
 
 @media (min-width: 768px) {
@@ -183,16 +207,19 @@ footer {
   #nav-list {
     /* width: 250px; */
     background-color: transparent;
-    padding-left: 0;
+    padding-right: 20px;
     margin-bottom: 0;
   }
   #nav-list li{
     display: inline;
-    padding-right: 20px;
+    padding-right: 0px;
     border: 0px;
     font-size: 15px;
   }
   #nav-list a:hover {
-    color: #00bfff;
+    color: #ccc;
+  }
+  .banner {
+    height: 500px;
   }
 }

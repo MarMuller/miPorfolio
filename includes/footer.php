@@ -2,15 +2,17 @@
 
   <footer>
 
+    <div class="line"></div>
+
     <div class="footer-divider">
       <?php echo file_get_contents("images/svg/marmuller-logo-01.svg"); ?>
     </div>
 
     <div class="redes">
-      <i class='fab fa-linkedin-in' style='font-size:24px'></i>
-      <i class='fab fa-behance' style='font-size:24px'></i>
-      <i class='fab fa-facebook' style='font-size:24px'></i>
-      <i class='fab fa-instagram' style='font-size:24px'></i>
+      <a href="#"><i class='fab fa-facebook-f' style='font-size:24px'></i></a>
+      <a href="#"><i class='fab fa-linkedin-in' style='font-size:24px'></i></a>
+      <a href="#"><i class='fab fa-behance' style='font-size:24px'></i></a>
+      <a href="#"><i class='fab fa-instagram' style='font-size:24px'></i></a>
     </div>
 
   </footer>
