@@ -5,6 +5,7 @@ window.onload = function() {
   //NavBotón
   var navButton = document.querySelector("#nav-button");
   var navMobile = document.querySelector("#nav-mobile");
+  var navLogo = document.querySelector("#logo");
 
   navButton.addEventListener('click', function () {
       if (navMobile.style.display == "block") {
@@ -17,17 +18,17 @@ window.onload = function() {
     }
   );
 
-  //Checkear trabajo
+  //Checkear ancho de ventana
   $(window).resize(function() {
     var winWidth = $(window).width();
     // console.log(winWidth);
     if (winWidth >= "768") {
       navMobile.style.display = "block";
-      console.log("grande");
+      // console.log("grande");
     } else {
       navMobile.style.display = "none";
       navButton.innerHTML = '<i class="fa fa-bars"></i>';
-      console.log("chico");
+      // console.log("chico");
     }
   });
 

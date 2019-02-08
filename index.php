@@ -17,6 +17,7 @@
 
     <!-- CONTENEDOR PRINCIPAL -->
     <div class="banner">
+      <img class="" src="images/bg/poisoned.png" alt="">
     </div>
 
     <div class="content">

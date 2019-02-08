@@ -2,7 +2,9 @@
 
   <footer>
 
-    <div class=""></div>
+    <div class="footer-divider">
+      <?php echo file_get_contents("images/svg/marmuller-logo-01.svg"); ?>
+    </div>
 
     <div class="redes">
       <i class='fab fa-linkedin-in' style='font-size:24px'></i>

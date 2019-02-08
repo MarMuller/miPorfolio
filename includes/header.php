@@ -3,6 +3,7 @@
   <nav>
 
     <div id="logo">
+      <?php echo file_get_contents("images/svg/marmuller-logo-02.svg"); ?>
     </div>
 
     <div id="nav-button">
