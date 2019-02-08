@@ -27,6 +27,9 @@
     <!-- FOOTER -->
     <?php include('includes/footer.php');?>
 
+    <div id="curved-line">
+    </div>
+
   </body>
 
 </html>
