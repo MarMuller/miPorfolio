@@ -270,7 +270,6 @@ footer {
     height: 500px;
     margin-bottom: 20px;
     background-color: #080d11;
-    border-bottom: 1px solid #1a1a1a;
     /* overflow: hidden; */
     display: flex;
     justify-content: center;
@@ -287,9 +286,33 @@ footer {
     width: 100%;
     height: 100%;
     background-image: url(../images/bg/poisoned.png);
-    background-size: 80%;
+    background-repeat: no-repeat;
     background-position: center;
     transition: margin 0.5s ease-out;
   }
   /* FIN MAIN-BANNER */
+}
+
+@media (min-width: 768px) {
+  .img-banner {
+    background-size: 120%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .img-banner {
+    background-size: 110%;
+  }
+}
+
+@media (min-width: 1440px) {
+  .img-banner {
+    background-size: 100%;
+  }
+}
+
+@media (min-width: 2560px) {
+  .img-banner {
+    background-size: 80%;
+  }
 }
