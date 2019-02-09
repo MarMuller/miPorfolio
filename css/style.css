@@ -125,6 +125,7 @@ nav {
   border-bottom: 1px solid #1a1a1a;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .img-container {
@@ -143,6 +144,18 @@ nav {
   background-size: 170%;
   transition: margin 0.5s ease-out;
 }
+
+.txt-container {
+  position: absolute;
+  transition: margin 0.5s ease-out;
+  z-index: 20;
+}
+
+.txt-banner {
+  background-color: red;
+  margin-top: 25px;
+}
+
 /* FIN MAIN-BANNER */
 
 .content {
@@ -290,6 +303,7 @@ footer {
     background-position: center;
     transition: margin 0.5s ease-out;
   }
+
   /* FIN MAIN-BANNER */
 }
 
