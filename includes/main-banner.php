@@ -3,7 +3,7 @@
   <div class="txt-container">
     <div class="txt-banner">
       <span>Hola, soy</span>
-      <?php echo file_get_contents("images/svg/marmuller-logo-02.svg"); ?>
+      <a href="#"><?php echo file_get_contents("images/svg/marmuller-logo-02.svg"); ?></a>
     </div>
   </div>
 

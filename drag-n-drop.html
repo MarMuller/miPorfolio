@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+
+  <body>
+
+    <script>
+      function allowDrop(ev) {
+        ev.preventDefault();
+      }
+
+      function drag(ev) {
+        ev.dataTransfer.setData("text", ev.target.id);
+      }
+
+      function drop(ev) {
+        ev.preventDefault();
+        var data = ev.dataTransfer.getData("text");
+        ev.target.appendChild(document.getElementById(data));
+      }
+    </script>
+
+    <div style="display:flex;align-items:center;flex-direction:column;">
+
+      <!-- MY TARGET -->
+      <div id="target" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+
+      <!-- DROPABLE OBJECTS ( tienen que tener un ID )-->
+      <div style="display:flex;justify-content:center;flex-direction:row;">
+
+        <div class="marco">
+          <div id="grabbable-1" class="grabbable" draggable="true" ondragstart="drag(event)" ></div>
+        </div>
+
+        <div class="marco">
+          <div id="grabbable-2" class="grabbable" draggable="true" ondragstart="drag(event)" ></div>
+        </div>
+
+        <div class="marco">
+          <div id="grabbable-3" class="grabbable" draggable="true" ondragstart="drag(event)" ></div>
+        </div>
+
+        <div class="marco">
+          <div id="grabbable-4" class="grabbable" draggable="true" ondragstart="drag(event)" ></div>
+        </div>
+
+        <div class="marco">
+          <div id="grabbable-5" class="grabbable" draggable="true" ondragstart="drag(event)" ></div>
+        </div>
+
+        <div class="marco">
+          <div id="grabbable-6" class="grabbable" draggable="true" ondragstart="drag(event)" ></div>
+        </div>
+
+      </div>
+
+      <style media="screen">
+
+        #target {
+          width:200px;
+          height:200px;
+          border:1px solid red;
+          margin-bottom:100px;
+
+          background-image: url(images/drag/base-02.png);
+          background-repeat: no-repeat;
+        }
+
+        .marco {
+          width:200px;
+          height:200px;
+          border:1px solid black;
+          margin:0 5px;
+        }
+
+        .grabbable {
+          width:200px;
+          height:200px;
+
+          cursor: move;
+          cursor: grab;
+          cursor: -moz-grab;
+          cursor: -webkit-grab;
+        }
+
+        .grabbable:active {
+          cursor: grabbing;
+          cursor: -moz-grabbing;
+          cursor: -webkit-grabbing;
+        }
+
+        #grabbable-1 {
+          background-image: url(images/drag/1-02.png);
+          background-repeat: no-repeat;
+        }
+
+        #grabbable-2 {
+          background-image: url(images/drag/2-02.png);
+          background-repeat: no-repeat;
+        }
+
+        #grabbable-3 {
+          background-image: url(images/drag/3-02.png);
+          background-repeat: no-repeat;
+        }
+
+        #grabbable-4 {
+          background-image: url(images/drag/4-02.png);
+          background-repeat: no-repeat;
+        }
+
+        #grabbable-5 {
+          background-image: url(images/drag/5-02.png);
+          background-repeat: no-repeat;
+        }
+
+        #grabbable-6 {
+          background-image: url(images/drag/6-02.png);
+          background-repeat: no-repeat;
+        }
+
+      </style>
+
+    </div>
+
+  </body>
+
+</html>
