@@ -1,8 +1,9 @@
 <div class="footer-bg">
 
   <footer>
-
-    <?php include('includes/divider.php');?>
+    <div style="margin-top: 20px;">
+      <?php include('includes/divider.php');?>
+    </div>
 
     <div class="footer-logo">
       <a href="#"><?php echo file_get_contents("images/svg/marmuller-logo-02.svg"); ?></a>

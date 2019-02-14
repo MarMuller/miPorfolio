@@ -102,8 +102,12 @@ nav {
   transform: translateY(34px);
 }
 
-#nav-buttons svg {
+#nav-buttons svg.dot {
   display: none;
+}
+
+#nav-buttons svg.curved-line {
+  display: inline;
 }
 
 #nav-list {
@@ -120,7 +124,7 @@ nav {
   font-size: 20px;
   font-weight: 100;
   padding: 20px 60px 20px 20px;
-  border-bottom: 1px solid #1a1a1a;
+  /* border-bottom: 1px solid #1a1a1a; */
 }
 
 #nav-list a:active{
@@ -187,12 +191,31 @@ nav {
 
 /* FIN MAIN-BANNER */
 
-.content {
+#content {
   width: 100%;
-  height: 500px;
+  height: auto;
   max-width: 1024px;
-  background-color: gray;
+  /* background-color: gray; */
   margin: 0 auto;
+}
+
+#misAptitudes {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 20px 0;
+}
+
+.aptitud{
+  width: 80vw;
+  height: 80vw;
+  max-width: 300px;
+  max-height: 300px;
+  background-color: gray;
+  /* border-radius: 0px 50px; */
+  margin: 10px 0;
 }
 
 .footer-bg {
@@ -295,6 +318,20 @@ footer {
   .txt-banner svg {
     margin-left: 2px;
   }
+
+}
+
+@media (min-width: 600px) {
+  #misAptitudes {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+  }
+  .aptitud{
+    width: 30vw;
+    height: 30vw;
+    margin: 0;
+  }
 }
 
 @media (min-width: 768px) {
@@ -307,9 +344,13 @@ footer {
     position: relative;
     transform: none;
   }
-  #nav-buttons svg {
+  #nav-buttons svg.dot {
     display: inline;
     padding: 0 10px 0 10px;
+  }
+
+  #nav-buttons .curved-line {
+    display: none;
   }
 
   #nav-buttons circle {
@@ -360,6 +401,7 @@ footer {
   }
 
   /* FIN MAIN-BANNER */
+
 }
 
 @media (min-width: 1010px) {

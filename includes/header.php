@@ -13,10 +13,13 @@
     <div id="nav-buttons">
       <ul id="nav-list">
         <li><a href="#">Sobre mí</a></li>
+        <?php include('includes/divider.php');?>
         <?php include('images/svg/dot.svg');?>
         <li><a href="#">Diseño</a></li>
+        <?php include('includes/divider.php');?>
         <?php include('images/svg/dot.svg');?>
         <li><a href="#">Ilustración</a></li>
+        <?php include('includes/divider.php');?>
         <?php include('images/svg/dot.svg');?>
         <li><a href="#">Contacto</a></li>
       </ul>
