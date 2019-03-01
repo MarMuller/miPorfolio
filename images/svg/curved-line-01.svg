@@ -1,7 +1,7 @@
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 width="113.866px" height="56.934px" viewBox="0 0 113.866 56.934" enable-background="new 0 0 113.866 56.934"
 	 xml:space="preserve">
-		<path fill="none" stroke="#333333" stroke-width="6" stroke-miterlimit="10" d="M113.866,7.117
+		<path class="tuvieja" fill="none" stroke="#333333" stroke-width="10" stroke-miterlimit="10" d="M113.866,7.117
 			c-14.233,0-22.505,10.767-28.467,21.35c-5.505,9.773-14.233,21.35-28.466,21.35S33.972,38.24,28.467,28.467
 			C22.505,17.884,14.233,7.117,0,7.117" />
 </svg>
