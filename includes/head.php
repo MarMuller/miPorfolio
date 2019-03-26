@@ -8,7 +8,7 @@
   <script type="text/javascript" src="js/nav.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script type="text/javascript" src="js/banner-height.js"></script>
-  <script type="text/javascript" src="js/image-effect.js"></script>
+  <script type="text/javascript" src="js/banner-effect.js"></script>
 
   <title>MarMuller Porfolio</title>
 </head>
