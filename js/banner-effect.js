@@ -5,8 +5,8 @@ $(document).ready(function(){
   var winWidth = $(window).width();
 
   $('.banner').mousemove(function(event) {
-    var moveX = ( (winWidth / 2) - event.pageX) * 0.05;
-    var moveY = ( (winWidth / 2) - event.pageY) * 0.05;
+    var moveX = ( (winWidth / 2) - event.pageX) * 0.03;
+    var moveY = ( (winWidth / 2) - event.pageY) * 0.03;
     $('.img-banner').css('margin-left', moveX+'px');
     $('.img-banner').css('margin-top', moveY+'px');
   })

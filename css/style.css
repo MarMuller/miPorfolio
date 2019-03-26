@@ -142,7 +142,7 @@ nav {
 .img-container {
   width: 100%;
   overflow: hidden;
-  background-color: #080d11;
+  background-color: #060305;
 }
 
 .img-container img {
@@ -285,7 +285,13 @@ footer {
   .txt-banner svg {
     margin-left: 2px;
   }
+}
 
+@media (min-width: 500px) {
+  /* MAIN-BANNER */
+  .img-container img {
+    object-position: 0 35%;
+  }
 }
 
 @media (min-width: 768px) {

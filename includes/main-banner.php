@@ -8,7 +8,7 @@
   </div>
 
   <div class="img-container">
-    <img src="images/bg/poisoned.png" class="img-banner" alt="">
+    <img src="images/bg/blue-mermaid-2.png" class="img-banner" alt="">
   </div>
 
 </div>
