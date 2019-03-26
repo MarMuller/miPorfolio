@@ -5,8 +5,11 @@
 
   <body>
 
+    <!-- DERECHOS -->
+    <?php include('includes/copyright.php');?>
+
     <!-- HEADER -->
-    <?php include('includes/header.php');?>
+    <?php include('includes/nav.php');?>
 
     <!-- CONTENEDOR PRINCIPAL -->
     <?php include('includes/main-banner.php');?>

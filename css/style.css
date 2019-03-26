@@ -22,6 +22,22 @@ a {
 }
 
 /* IMAGE PROPERTIES */
+#copyright {
+  position:absolute;
+  left: 1px;
+  bottom: 1px;
+  z-index:20;
+  color: #ccc;
+  font-size: 12px;
+  -ms-transform: rotate(270deg) translate(80px,-70px);; /* IE 9 */
+  -webkit-transform: rotate(270deg) translate(80px,-70px);; /* Safari */
+  transform: rotate(270deg) translate(80px,-70px);; /* Standard syntax */
+}
+#copyright a:hover {
+  text-decoration: underline;
+}
+
+/* IMAGE PROPERTIES */
 .object-fit_fill { object-fit: fill }
 .object-fit_contain { object-fit: contain }
 .object-fit_cover { object-fit: cover }
@@ -40,7 +56,7 @@ a {
 .nav-bg {
   width: 100%;
   /* height: 150px; */
-  background-color:rgba(0, 0, 0, 0.8);
+  background-color:rgba(0, 0, 0, .6);
   display: flex;
   justify-content: center;
   position: fixed;
@@ -66,7 +82,7 @@ nav {
 }
 
 #logo svg {
-  padding-left: 2px;
+  padding-left: 3px;
   width: 38px;
 
   transition: 0.5s ease;
@@ -143,6 +159,21 @@ nav {
   width: 100%;
   overflow: hidden;
   background-color: #060305;
+
+  position: relative;
+  z-index: 5;
+}
+
+.img-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  box-shadow: inset 0 0 100px 50px rgba(6, 3, 5,.6);
+  -moz-box-shadow: inset 0 0 100px 50px rgba(6, 3, 5,.6);
+  -webkit-box-shadow: inset 0 0 100px 50px rgba(6, 3, 5,.6);
 }
 
 .img-container img {
@@ -156,15 +187,24 @@ nav {
   transition: margin 0.5s ease-out;
   z-index: 20;
   padding: 0 10px 0 10px;
+
+  bottom: 5%;
 }
 
 .welcome-banner {
   margin-top: 25px;
+  text-shadow: 2px 2px 5px rgba(6, 3, 5, .5);
   fill: #ccc;
 }
 
 .welcome-banner a {
   fill: #ccc;
+  transition: fill 0.5s ease-out;
+}
+
+.welcome-banner a:hover {
+  fill: #fff;
+  transition: fill 0.5s ease-out;
 }
 
 .welcome-banner span {
@@ -180,6 +220,7 @@ nav {
   transform: translateY(9px);
   margin-left: -3px;
   margin-bottom: 5px;
+  filter: drop-shadow( 2px 2px 5px rgba(6, 3, 5, .5) );
 }
 
 .welcome-banner a {
@@ -311,28 +352,31 @@ footer {
   .welcome-banner {
     padding: 0 10px 0 0;
   }
-
 }
 
 @media (min-width: 500px) {
+
   /* MAIN-BANNER */
-  .welcome-banner a {
-    display: inline;
+  .txt-container {
+    bottom: 10%;
   }
-}
-
-@media (min-width: 500px) {
-  /* MAIN-BANNER */
   .img-container img {
     object-position: 0 35%;
+  }
+  .welcome-banner {
+    padding-right: 0;
   }
   .welcome-banner svg {
     margin-left: 2px;
     margin-bottom: 0;
   }
-  .hashtags-banner ul {
+  .welcome-banner a {
+    display: inline;
+  }
+  .hashtags-banner {
     display: flex;
     justify-content: center;
+    padding-left: 0;
   }
   .hashtags-banner li {
     float: right;
@@ -359,7 +403,7 @@ footer {
   }
 
   #nav-buttons circle {
-    fill: #33cccc;
+    fill: #1f7a7a;
   }
 
   #nav-list {
@@ -376,6 +420,16 @@ footer {
   }
   #nav-list a:hover {
     color: #ccc;
+  }
+
+  .txt-container {
+    bottom: 10%;
+  }
+
+  .img-container::before {
+    box-shadow: inset 0 0 150px 100px rgba(6, 3, 5,.6);
+    -moz-box-shadow: inset 0 0 150px 100px rgba(6, 3, 5,.6);
+    -webkit-box-shadow: inset 0 0 150px 100px rgba(6, 3, 5,.6);
   }
 
   /* FIN MAIN-BANNER */

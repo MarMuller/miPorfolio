@@ -12,16 +12,19 @@
 
     <div id="nav-buttons">
       <ul id="nav-list">
-        <li><a href="#">Sobre mí</a></li>
+        <li><a href="#">sobre mí</a></li>
         <?php include('includes/divider.php');?>
         <?php include('images/svg/dot.svg');?>
-        <li><a href="#">Diseño</a></li>
+        <li><a href="#">diseño</a></li>
         <?php include('includes/divider.php');?>
         <?php include('images/svg/dot.svg');?>
-        <li><a href="#">Ilustración</a></li>
+        <li><a href="#">ilustración</a></li>
         <?php include('includes/divider.php');?>
         <?php include('images/svg/dot.svg');?>
-        <li><a href="#">Contacto</a></li>
+        <li><a href="#">contacto</a></li>
+        <?php include('includes/divider.php');?>
+        <?php include('images/svg/dot.svg');?>
+        <li><a href="#">idioma</a></li>
       </ul>
     </div>
 
