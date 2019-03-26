@@ -9,7 +9,6 @@
 
   <div class="img-container">
     <img src="images/bg/poisoned.png" class="img-banner" alt="">
-    <!-- <div class="img-banner"></div> -->
   </div>
 
 </div>
