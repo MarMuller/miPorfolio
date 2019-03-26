@@ -134,7 +134,7 @@ nav {
 /* MAIN-BANNER */
 .banner {
   width: 100%;
-  height: 350px;
+  height: 100vw;
   margin-bottom: 20px;
   background-color: #080d11;
   border-bottom: 1px solid #1a1a1a;
@@ -145,20 +145,25 @@ nav {
 
 .img-container {
   width: 100%;
-  height: 100%;
-  overflow: hidden;
   background-color: #080d11;
 }
 
-.img-banner {
+.img-container img {
+  width: 100%;
+  height: 100%;
+  object-fit:cover;
+}
+
+/* .img-banner {
   width: 100%;
   height: 100%;
   z-index: -5;
   background-image: url(../images/bg/poisoned.png);
   background-position: center;
+  background-repeat: no-repeat;
   background-size: 250%;
   transition: margin 0.5s ease-out;
-}
+} */
 
 .txt-container {
   position: absolute;
@@ -308,7 +313,6 @@ footer {
     width: 100%;
     height: 100%;
     background-image: url(../images/bg/poisoned.png);
-    background-size: 150%;
     background-position: center;
     transition: margin 0.5s ease-out;
   }
@@ -377,18 +381,12 @@ footer {
   .banner {
     width: 100%;
     margin-bottom: 20px;
-    background-color: #080d11;
-    border-bottom: 1px solid #1a1a1a;
+    background-color: red;
+    /* background-color: #080d11; */
+    /* border-bottom: 1px solid #1a1a1a; */
     /* overflow: hidden; */
     display: flex;
     justify-content: center;
-  }
-
-  .img-container {
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-    background-color: #080d11;
   }
 
   .img-banner {
@@ -407,7 +405,7 @@ footer {
 @media (min-width: 1010px) {
   /* MAIN-BANNER */
   .banner {
-    height: 500px;
+    height: 100vw;
   }
   /* FIN MAIN-BANNER */
 }

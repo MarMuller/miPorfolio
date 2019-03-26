@@ -8,7 +8,8 @@
   </div>
 
   <div class="img-container">
-    <div class="img-banner"></div>
+    <img src="images/bg/poisoned.png" class="img-banner" alt="">
+    <!-- <div class="img-banner"></div> -->
   </div>
 
 </div>

@@ -11,7 +11,7 @@
     <!-- CONTENEDOR PRINCIPAL -->
     <?php include('includes/main-banner.php');?>
 
-    <div id="content">
+    <!-- <div id="content">
 
       <div id="misAptitudes">
 
@@ -29,10 +29,10 @@
 
       </div>
 
-    </div>
+    </div> -->
 
     <!-- FOOTER -->
-    <?php include('includes/footer.php');?>
+    <!-- <?php include('includes/footer.php');?> -->
 
   </body>
 
