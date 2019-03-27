@@ -1,1 +1,1 @@
-<div id="copyright">Sitio Web por <a href="#">Marina A. Müller</a></div>
+<div id="copyright">Sitio Web diseñado y programado por <a href="#">Marina A. Müller</a></div>

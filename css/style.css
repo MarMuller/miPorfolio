@@ -23,18 +23,25 @@ a {
 
 /* IMAGE PROPERTIES */
 #copyright {
-  position:absolute;
+  position:fixed;
   left: 1px;
   bottom: 1px;
   z-index:20;
   color: #ccc;
   font-size: 12px;
-  -ms-transform: rotate(270deg) translate(95px,-60px); /* IE 9 */
-  -webkit-transform: rotate(270deg) translate(95px,-60px); /* Safari */
-  transform:rotate(270deg) translate(95px,-60px); /* Standard syntax */
+  -ms-transform: rotate(270deg) translate(160px,-135px); /* IE 9 */
+  -webkit-transform: rotate(270deg) translate(160px,-135px); /* Safari */
+  transform: rotate(270deg) translate(160px,-135px); /* Standard syntax */
 }
+
+#copyright a {
+  text-decoration: none;
+  transition: text-decoration 1s ease;
+}
+
 #copyright a:hover {
   text-decoration: underline;
+  transition: text-decoration 1s ease;
 }
 
 /* IMAGE PROPERTIES */
@@ -66,7 +73,7 @@ a {
 
 nav {
   width: 100%;
-  max-width: 1024px;
+  /* max-width: 1024px; */
   /* height: 150px; */
   /* background-color: green; */
   color: white;
@@ -85,19 +92,15 @@ nav {
 #logo svg {
   padding-left: 3px;
   width: 38px;
-
-  transition: 0.5s ease;
-
+  fill: #ccc;
+  transition: fill 0.5s ease;
   /* padding-left: 8px;
   width: 150px; */
 }
 
 #logo svg:hover {
-  opacity: 0.9;
-}
-
-#logo path {
-  fill: #ccc;
+  fill: #1f7a7a;
+  transition: fill 0.5s ease;
 }
 
 #nav-button {
