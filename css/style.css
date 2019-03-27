@@ -23,7 +23,7 @@ a {
 
 /* IMAGE PROPERTIES */
 #copyright {
-  position:fixed;
+  position:absolute;
   left: 1px;
   bottom: 1px;
   z-index:20;
@@ -31,7 +31,7 @@ a {
   font-size: 12px;
   -ms-transform: rotate(270deg) translate(160px,-135px); /* IE 9 */
   -webkit-transform: rotate(270deg) translate(160px,-135px); /* Safari */
-  transform: rotate(270deg) translate(160px,-135px); /* Standard syntax */
+  transform: rotate(270deg) translate(150px,-135px); /* Standard syntax */
 }
 
 #copyright a {
@@ -58,6 +58,11 @@ a {
 .image--down { object-position: 50%  -20%; }
 .image--left { object-position: 120%  50%; }
 .image--right { object-position: -20%  50%; }
+
+/* TEXT PROPERTIES */
+.centerText { text-align:center; }
+.leftText { text-align:left; }
+.rightText { text-align:right; }
 
 
 .nav-bg {
@@ -263,6 +268,30 @@ nav {
   /* background-color: gray; */
   margin: 0 auto;
 }
+
+
+
+
+/* GALLERY */
+.myGallery {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 10px 0;
+}
+
+.previewGallery {
+  width: calc( 100% /1 );
+  margin-top: 8px;
+  background-color: red;
+}
+
+/* FIN GALLERY */
+
+
+
 
 .footer-bg {
   width: 100%;
