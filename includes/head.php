@@ -12,7 +12,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script type="text/javascript" src="js/loading.js"></script>
   <script type="text/javascript" src="js/nav.js"></script>
-  <script type="text/javascript" src="js/window-onload.js"></script>
+  <script type="text/javascript" src="js/window-onresize.js"></script>
   <script type="text/javascript" src="js/banner-effect.js"></script>
 
   <title>MarMuller Porfolio</title>

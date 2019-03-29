@@ -95,8 +95,20 @@
         <li class="previewGallery">
           Holaaaaa
         </li>
-      </ul>
 
+        <!-- NO BORRAR -->
+        <li class="previewGallery"></li>
+        <li class="previewGallery"></li>
+        <li class="previewGallery"></li>
+        <li class="previewGallery"></li>
+        <li class="previewGallery"></li>
+        <li class="previewGallery"></li>
+        <li class="previewGallery"></li>
+        <li class="previewGallery"></li>
+        <li class="previewGallery"></li>
+        <li class="previewGallery"></li>
+
+      </ul>
 
     </div>
     <!-- FIN GALERIA -->
