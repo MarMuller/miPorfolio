@@ -7,7 +7,7 @@ $(document).ready(function(){
 
   // GALLERY
   var cw = $('.previewGallery').width();
-  $('.previewGallery').css({'height':cw+'px'});
+  $('.previewGallery').css('height', cw+'px');
 
   var previewGallery = $('li.previewGallery');
   var emptyLi;
@@ -30,7 +30,7 @@ $(document).ready(function(){
 
     // GALLERY
     var cw = $('.previewGallery').width();
-    $('.previewGallery').css({'height':cw+'px'});
+    $('.previewGallery').css('height', cw+'px');
 
     var previewGallery = $('li.previewGallery');
     var emptyLi;
