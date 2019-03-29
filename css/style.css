@@ -276,18 +276,25 @@ nav {
 .myGallery {
   width: 100%;
   height: auto;
+
   display: flex;
-  justify-content: space-between;
   flex-wrap: wrap;
+  justify-content: space-between;
+
   margin: 10px 0;
+
+}
+
+.myGallery::after {
+  content: "";
+  flex: auto;
 }
 
 .previewGallery {
-  width: calc( 95% /1 );
+  width: calc( 100% /1 );
   background-color: red;
-  margin-right: 2%;
-  margin-bottom: 2%;
-  margin-left: 2%;
+  box-sizing: border-box;
+  margin: 0.5%;
 }
 
 /* FIN GALLERY */
@@ -377,7 +384,7 @@ footer {
 }
 
 
-/* RESPONSIVE */
+/* ----------------RESPONSIVE---------------- */
 
 @media (min-width: 425px) {
   /* MAIN-BANNER */
@@ -418,17 +425,8 @@ footer {
   }
 
   /* GALLERY */
-  .myGallery {
-    padding-left: 1%;
-    justify-content: flex-start;
-    flex-wrap: wrap;
-  }
   .previewGallery {
-    width: calc( 97% /2 );
-    margin-top: 0%;
-    margin-right: 1%;
-    margin-bottom: 1%;
-    margin-left: 0%;
+    width: calc( 100% /2 );
   }
 
 }
@@ -485,18 +483,8 @@ footer {
 
 
   /* GALLERY */
-  .myGallery {
-    padding-left: 0.5%;
-    justify-content: flex-start;
-    flex-wrap: wrap;
-  }
   .previewGallery {
-    width: calc( 97% /5 );
-    margin-top: 0%;
-    margin-right: 0.5%;
-    margin-bottom: 0.5%;
-    margin-left: 0%;
+    width: calc( 98% /5 );
   }
-
 
 }
