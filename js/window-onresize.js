@@ -22,7 +22,7 @@ $(document).ready(function(){
   });
 
   window.onresize = function() {
-    
+
     // BANNER
     var winHeight = $(window).height() ;
     $('.banner').css('height', winHeight+'px');
