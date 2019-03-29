@@ -19,81 +19,84 @@
 
     <div class="myGallery">
 
-      <div class="previewGallery">
-        Holaaaaa
-      </div>
-      <div class="previewGallery">
-        Holaaaaa
-      </div>
-      <div class="previewGallery">
-        Holaaaaa
-      </div>
-      <div class="previewGallery">
-        Holaaaaa
-      </div>
-      <div class="previewGallery">
-        Holaaaaa
-      </div>
-      <div class="previewGallery">
-        Holaaaaa
-      </div>
+      <ul>
+        <li class="previewGallery">
+          Holaaaaa
+        </li>
+        <li class="previewGallery">
+          Holaaaaa
+        </li>
+        <li class="previewGallery">
+          Holaaaaa
+        </li>
+        <li class="previewGallery">
+          Holaaaaa
+        </li>
+        <li class="previewGallery">
+          Holaaaaa
+        </li>
+        <li class="previewGallery">
+          Holaaaaa
+        </li>
 
-      <div class="previewGallery">
-        Holaaaaa
-      </div>
-      <div class="previewGallery">
-        Holaaaaa
-      </div>
-      <div class="previewGallery">
-        Holaaaaa
-      </div>
-      <div class="previewGallery">
-        Holaaaaa
-      </div>
-      <div class="previewGallery">
-        Holaaaaa
-      </div>
-      <div class="previewGallery">
-        Holaaaaa
-      </div>
+        <li class="previewGallery">
+          Holaaaaa
+        </li>
+        <li class="previewGallery">
+          Holaaaaa
+        </li>
+        <li class="previewGallery">
+          Holaaaaa
+        </li>
+        <li class="previewGallery">
+          Holaaaaa
+        </li>
+        <li class="previewGallery">
+          Holaaaaa
+        </li>
+        <li class="previewGallery">
+          Holaaaaa
+        </li>
 
-      <div class="previewGallery">
-        Holaaaaa
-      </div>
-      <div class="previewGallery">
-        Holaaaaa
-      </div>
-      <div class="previewGallery">
-        Holaaaaa
-      </div>
-      <div class="previewGallery">
-        Holaaaaa
-      </div>
-      <div class="previewGallery">
-        Holaaaaa
-      </div>
-      <div class="previewGallery">
-        Holaaaaa
-      </div>
+        <li class="previewGallery">
+          Holaaaaa
+        </li>
+        <li class="previewGallery">
+          Holaaaaa
+        </li>
+        <li class="previewGallery">
+          Holaaaaa
+        </li>
+        <li class="previewGallery">
+          Holaaaaa
+        </li>
+        <li class="previewGallery">
+          Holaaaaa
+        </li>
+        <li class="previewGallery">
+          Holaaaaa
+        </li>
 
-      <div class="previewGallery">
-        Holaaaaa
-      </div>
-      <div class="previewGallery">
-        Holaaaaa
-      </div>
-      <div class="previewGallery">
-        Holaaaaa
-      </div>
-      <div class="previewGallery">
-        Holaaaaa
-      </div>
-      <div class="previewGallery">
-        Holaaaaa
-      </div>
-      <div class="previewGallery">
-        Holaaaaa
-      </div>
+        <li class="previewGallery">
+          Holaaaaa
+        </li>
+        <li class="previewGallery">
+          Holaaaaa
+        </li>
+        <li class="previewGallery">
+          Holaaaaa
+        </li>
+        <li class="previewGallery">
+          Holaaaaa
+        </li>
+        <li class="previewGallery">
+          Holaaaaa
+        </li>
+        <li class="previewGallery">
+          Holaaaaa
+        </li>
+      </ul>
+
 
     </div>
     <!-- FIN GALERIA -->

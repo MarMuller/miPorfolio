@@ -1,0 +1,36 @@
+.myGallery {
+  overflow: hidden;
+  background-color: yellow;
+}
+
+.myGallery ul {
+  display: flex;
+  flex-wrap: wrap;
+
+  margin: 0 -4px -4px 0;
+
+  list-style: none;
+  padding: 0;
+}
+
+li.previewGallery {
+  flex: 1 0 200px;
+  /* height: 200px; */
+  border-right: 4px solid black;
+  border-bottom: 4px solid black;
+  background-color: deeppink;
+
+  &:empty {
+    height: 0;
+    border: none;
+  };
+}
+
+
+*,
+:before,
+:after {
+  box-sizing: border-box;
+}
+
+/* ----------------RESPONSIVE---------------- */

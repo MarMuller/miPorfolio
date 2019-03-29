@@ -1,0 +1,133 @@
+.nav-bg {
+  width: 100%;
+  /* height: 150px; */
+  background-color:rgba(0, 0, 0, .6);
+  border-bottom: 1px solid rgba(26, 26, 26, .6);
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  z-index: 100;
+}
+
+nav {
+  width: 100%;
+  /* max-width: 1024px; */
+  /* height: 150px; */
+  /* background-color: green; */
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+#logo {
+  height: 50px;
+  /* background-color: blue; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#logo svg {
+  padding-left: 3px;
+  width: 38px;
+  fill: #ccc;
+  transition: fill 0.5s ease;
+  /* padding-left: 8px;
+  width: 150px; */
+}
+
+#logo svg:hover {
+  fill: #1f7a7a;
+  transition: fill 0.5s ease;
+}
+
+#nav-button {
+  width: 50px;
+  height: 50px;
+  /* background-color: blue; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+}
+
+#nav-buttons{
+  width: 100%;
+  max-width: 1024px;
+  display: none;
+  position: absolute;
+  z-index: 50;
+  transform: translateY(34px);
+}
+
+#nav-buttons svg.dot {
+  display: none;
+}
+
+#nav-buttons svg.curved-line {
+  display: inline;
+}
+
+#nav-list {
+  /* width: 250px; */
+  background-color:rgba(0, 0, 0, 1);
+  padding-left: 0;
+  margin-bottom: 0;
+  float: right;
+}
+
+#nav-list li {
+  list-style-type: none;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: 100;
+  padding: 20px 60px 20px 20px;
+  /* border-bottom: 1px solid #1a1a1a; */
+}
+
+#nav-list a:active{
+   color: purple;
+}
+
+
+/* ----------------RESPONSIVE---------------- */
+
+@media (min-width: 768px) {
+  #nav-button {
+    display: none;
+  }
+  #nav-buttons{
+    width: 80%;
+    display: block;
+    position: relative;
+    transform: none;
+  }
+  #nav-buttons svg.dot {
+    display: inline;
+    padding: 0 10px 0 10px;
+  }
+
+  #nav-buttons .curved-line {
+    display: none;
+  }
+
+  #nav-buttons circle {
+    fill: #4d2e6b;
+  }
+
+  #nav-list {
+    /* width: 250px; */
+    background-color: transparent;
+    margin-bottom: 0;
+    padding-right: 15px;
+  }
+  #nav-list li{
+    display: inline;
+    padding: 0px;
+    border: 0px;
+    font-size: 15px;
+  }
+  #nav-list a:hover {
+    color: #ccc;
+  }
+}

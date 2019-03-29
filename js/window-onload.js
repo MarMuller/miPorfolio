@@ -14,7 +14,7 @@ $(document).ready(function(){
 
     var cw = $('.previewGallery').width();
     $('.previewGallery').css({'height':cw+'px'});
-  
+
   }
 
 });
