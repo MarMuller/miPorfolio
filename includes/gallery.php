@@ -2,92 +2,81 @@
 
   <ul>
     <li class="previewGallery">
-      Holaaaaa
+      1111
     </li>
     <li class="previewGallery">
-      Holaaaaa
+      2222
     </li>
     <li class="previewGallery">
-      Holaaaaa
+      3333
     </li>
     <li class="previewGallery">
-      Holaaaaa
+      4444
     </li>
     <li class="previewGallery">
-      Holaaaaa
+      5555
     </li>
     <li class="previewGallery">
-      Holaaaaa
+      6666
     </li>
 
     <li class="previewGallery">
-      Holaaaaa
+      7777
     </li>
     <li class="previewGallery">
-      Holaaaaa
+      8888
     </li>
     <li class="previewGallery">
-      Holaaaaa
+      9999
     </li>
     <li class="previewGallery">
-      Holaaaaa
+      10101010
     </li>
     <li class="previewGallery">
-      Holaaaaa
+      11111111
     </li>
     <li class="previewGallery">
-      Holaaaaa
+      12121212
     </li>
 
     <li class="previewGallery">
-      Holaaaaa
+      13131313
     </li>
     <li class="previewGallery">
-      Holaaaaa
+      14141414
     </li>
     <li class="previewGallery">
-      Holaaaaa
+      15151515
     </li>
     <li class="previewGallery">
-      Holaaaaa
+      16161616
     </li>
     <li class="previewGallery">
-      Holaaaaa
+      17171717
     </li>
     <li class="previewGallery">
-      Holaaaaa
+      18181818
     </li>
 
     <li class="previewGallery">
-      Holaaaaa
+      19191919
     </li>
     <li class="previewGallery">
-      Holaaaaa
+      20202020
     </li>
     <li class="previewGallery">
-      Holaaaaa
+      21212121
     </li>
     <li class="previewGallery">
-      Holaaaaa
+      22222222
     </li>
     <li class="previewGallery">
-      Holaaaaa
+      23232323
     </li>
     <li class="previewGallery">
-      Holaaaaa
+      24242424
     </li>
 
-    <!-- NO BORRAR -->
-    <li class="previewGallery"></li>
-    <li class="previewGallery"></li>
-    <li class="previewGallery"></li>
-    <li class="previewGallery"></li>
-    <li class="previewGallery"></li>
-    <li class="previewGallery"></li>
-    <li class="previewGallery"></li>
-    <li class="previewGallery"></li>
-    <li class="previewGallery"></li>
-    <li class="previewGallery"></li>
 
   </ul>
 
