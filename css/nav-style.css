@@ -1,7 +1,7 @@
 .nav-bg {
   width: 100%;
   /* height: 150px; */
-  background-color:rgba(0, 0, 0, .6);
+  background-color: rgba(0, 0, 0, .6);
   border-bottom: 1px solid rgba(26, 26, 26, .6);
   display: flex;
   justify-content: center;
@@ -87,6 +87,34 @@ nav {
 
 #nav-list a:active{
    color: purple;
+}
+
+#mySocialMedia {
+  background-color: rgba(0, 0, 0, .6);
+  border: 1px solid rgba(26, 26, 26, .6);
+  border-right: 0;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  z-index: 20;
+  top: 80px;
+  /* border: 1px solid #1a1a1a;
+  border-left: 0; */
+  border-radius: 0 10px 10px 0;
+}
+
+#mySocialMedia i {
+  margin: 0 5px 0 5px;
+  font-size: 18px;
+  color: #ccc;
+  padding: 8px;
+  transform: translateX(0px);
+  transition: transform 0.5s ease;
+}
+
+#mySocialMedia i:hover {
+  transform: translateX(5px);
+  transition: transform 0.5s ease;
 }
 
 

@@ -6,7 +6,7 @@
   <body>
 
     <!-- DERECHOS -->
-    <?php include('includes/copyright.php');?>
+    <?php //include('includes/copyright.php');?>
 
     <!-- HEADER -->
     <?php include('includes/nav.php');?>
