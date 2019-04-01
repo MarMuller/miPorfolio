@@ -11,14 +11,14 @@ $(document).ready(function(){
 
   var previewGallery = $('li.previewGallery');
 
-  previewGallery.each(function(){
-    var content = $(this).text();
-    // console.log(emptyLi);
-    if ( content == "" ) {
-      $(this).css('height', '0px');
-      $(this).css('border', 'none');
-    }
-  });
+  // previewGallery.each(function(){
+  //   var content = $(this).text();
+  //   // console.log(emptyLi);
+  //   if ( content == "" ) {
+  //     $(this).css('height', '0px');
+  //     $(this).css('border', 'none');
+  //   }
+  // });
 
   // GALLERY (first child - galleryWidth - anchoDePrimeroMasBorde)
   var firstChildGallery = $("li.previewGallery:first-child");
@@ -68,14 +68,14 @@ $(document).ready(function(){
 
     var previewGallery = $('li.previewGallery');
 
-    previewGallery.each(function(){
-      var content = $(this).text();
-      // console.log(emptyLi);
-      if ( content == "" ) {
-        $(this).css('height', '0px');
-        $(this).css('border', 'none');
-      }
-    });
+    // previewGallery.each(function(){
+    //   var content = $(this).text();
+    //   // console.log(emptyLi);
+    //   if ( content == "" ) {
+    //     $(this).css('height', '0px');
+    //     $(this).css('border', 'none');
+    //   }
+    // });
 
     // GALLERY (first child - galleryWidth - anchoDePrimeroMasBorde)
     var firstChildGallery = $("li.previewGallery:first-child");
@@ -99,7 +99,7 @@ $(document).ready(function(){
     //console.log(lastRowNumItems);
 
     // GALLERY (espacios vacios)
-    var emptySpace = galleryColumns - lastRowNumItems;  
+    var emptySpace = galleryColumns - lastRowNumItems;
     //console.log(emptySpace);
 
     // GALLERY ( last child - dejamos espacio correspondiente con un margin)
