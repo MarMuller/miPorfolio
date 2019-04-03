@@ -11,13 +11,16 @@
     <!-- HEADER -->
     <?php include('includes/nav.php');?>
 
-    <!-- CONTENEDOR PRINCIPAL -->
+    <!-- BANNER -->
     <?php include('includes/main-banner.php');?>
 
     <!-- GALERIA -->
     <h3 class="centerText" style="color:#ccc;">#Ilustraciones</h3>
     <?php include('includes/gallery.php');?>
     <!-- FIN GALERIA -->
+
+    <!-- FOOTER -->
+    <?php include('includes/footer.php');?>
 
   </body>
 
