@@ -14,6 +14,9 @@
     <!-- BANNER -->
     <?php include('includes/main-banner.php');?>
 
+    <!-- SOBRE MÍ -->
+    <?php include('includes/sobre-mi.php');?>
+
     <!-- GALERIA -->
     <h3 class="centerText" style="color:#ccc;">#Ilustraciones</h3>
     <?php include('includes/gallery.php');?>

@@ -4,6 +4,7 @@ $(document).ready(function(){
   var winHeight = $(window).height() ;
   $('.banner').css('height', winHeight+'px');
   $('.img-container').css('height', winHeight+'px');
+  $('.section').css('height', winHeight+'px');
 
   // GALLERY (alto = altura)
   var cw = $('.previewGallery').width();
@@ -61,6 +62,7 @@ $(document).ready(function(){
     var winHeight = $(window).height() ;
     $('.banner').css('height', winHeight+'px');
     $('.img-container').css('height', winHeight+'px');
+    $('.section').css('height', winHeight+'px');
 
     // GALLERY
     var cw = $('.previewGallery').width();

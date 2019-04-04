@@ -28,7 +28,7 @@
       <a href="#"><i class='fab fa-instagram'></i></a>
     </div>
 
-    <p> Sitio Web diseñado y programado por <a href="#">Marina A. Müller</a> </p>
+    <p> Sitio web diseñado y programado por <a href="#">Marina A. Müller</a> </p>
 
   </footer>
 

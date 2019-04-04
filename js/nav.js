@@ -10,10 +10,10 @@ window.onload = function() {
   navButton.addEventListener('click', function () {
       if (navMobile.style.display == "block") {
           navMobile.style.display = "none";
-          navButton.innerHTML = '<i class="fa fa-bars"></i>';
+          navButton.innerHTML = '<img src="images/svg/hamb.svg" alt="">';
       } else {
           navMobile.style.display = "block";
-          navButton.innerHTML = '<i class="fa fa-close"></i>';
+          navButton.innerHTML = '<img src="images/svg/cross.svg" alt="">';
       }
     }
   );
@@ -27,7 +27,7 @@ window.onload = function() {
       // console.log("grande");
     } else {
       navMobile.style.display = "none";
-      navButton.innerHTML = '<i class="fa fa-bars"></i>';
+      navButton.innerHTML = '<img src="images/svg/hamb.svg" alt="">';
       // console.log("chico");
     }
   });

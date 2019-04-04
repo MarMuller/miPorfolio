@@ -17,6 +17,7 @@
   <script type="text/javascript" src="js/nav.js"></script>
   <script type="text/javascript" src="js/window-onresize.js"></script>
   <script type="text/javascript" src="js/banner-effect.js"></script>
+  <script type="text/javascript" src="js/smooth-scrolling.js"></script>
 
   <title>MarMüller Porfolio</title>
 </head>

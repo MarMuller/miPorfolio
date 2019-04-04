@@ -1,4 +1,4 @@
-<div class="banner">
+<div id="mainBanner" class="banner">
 
   <div class="txt-container">
 

@@ -64,14 +64,57 @@ a {
 .leftText { text-align:left; }
 .rightText { text-align:right; }
 
+/* FLEX PROPERTIES */
+.flex-spacebetween {
+  display: flex;
+  justify-content:space-between;
+  flex-direction: row;
+}
+.flex-spacearound {
+  display: flex;
+  justify-content:space-around;
+  flex-direction: row;
+}
+.flex-centervertically {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flex-columndirection{
+  display: flex;
+  flex-direction:column;
+}
 
-#content {
+
+
+.container {
   width: 100%;
   height: auto;
-  max-width: 1024px;
+  max-width: 900px;
   /* background-color: gray; */
   margin: 0 auto;
 }
+
+#presentation {
+  padding: 20px;
+  color: #ccc;
+}
+
+#services {
+  width: 100%;
+}
+
+#services div.service {
+  background: gray;
+  margin:5px;
+}
+
+#services div.service img {
+  width: 100%;
+  max-width: 300px;
+  float: left;
+}
+
 
 
 /* ----------------RESPONSIVE---------------- */
