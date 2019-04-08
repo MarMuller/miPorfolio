@@ -89,12 +89,13 @@
   list-style-type: none;
   padding: 5px 8px;
   margin-bottom: 8px;
-  margin-right: 8px;
-  border: 1px solid #ccc;
+  margin-right: 2px;
+  /* border: 1px solid #ccc; */
   /* border-radius: 1px 10px; */
   border-radius: 8px;
   float: left;
   clear: left;
+  background-color: none;
 }
 
 .hashtags-banner li:hover {
