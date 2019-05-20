@@ -64,6 +64,17 @@ $(document).ready(function(){
     $('.img-container').css('height', winHeight+'px');
     $('.section').css('height', winHeight+'px');
 
+    //BANNER (JS activo o no) ( NO FUNCA! )
+    // if ( $(window).width() < 500) {
+    //   $('head').remove('<script type="text/javascript" src="js/banner-effect.js"></script>');
+    //   console.log( $(window).width() );
+    //   console.log("<500");
+    // } else {
+    //   $('head').append('<script type="text/javascript" src="js/banner-effect.js"></script>');
+    //   console.log( $(window).width() );
+    //   console.log(">500");
+    // }
+
     // GALLERY
     var cw = $('.previewGallery').width();
     $('.previewGallery').css('height', cw+'px');

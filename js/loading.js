@@ -11,6 +11,6 @@ $(document).ready(function () {
   // });
 
   var bannerText =  $(".txt-container");
-  $(bannerText).hide().delay(600).fadeIn(1500).delay(10000);
+  $(bannerText).hide().delay(800).fadeIn(3000).delay(10000);
 
 });
