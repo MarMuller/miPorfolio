@@ -1,0 +1,93 @@
+.container {
+  width: 100%;
+  height: auto;
+  max-width: 900px;
+  /* background-color: gray; */
+  margin: 0 auto;
+}
+
+#presentation {
+  padding: 20px;
+  color: #ccc;
+}
+
+#services {
+  width: 100%;
+}
+
+#services div.service {
+  background: gray;
+  margin:5px;
+}
+
+#services div.service img {
+  width: 100%;
+  max-width: 300px;
+  float: left;
+}
+
+/* EMPIEZA LO NUEVO */
+
+.fullcontainer {
+  width: 100%;
+  height: auto;
+  /* max-width: 900px; */
+  background-color: #1a1a1a;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  color: #f2f2f2;
+}
+
+.fullcontainer .left {
+  padding: 50px;
+  /* background-color: grey; */
+}
+
+.fullcontainer .right {
+  padding: 50px;
+  /* background-color: white; */
+}
+
+.fullcontainer .center {
+  padding: 50px;
+}
+
+.fullcontainer .center.whitebg {
+  background-color: #f2f2f2;
+  color: #1a1a1a;
+}
+
+.imagebg {
+  height: 300px;
+  background-color: pink;
+  background-image: url(../images/bg/poisoned-2.png);
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  background-position: center;
+}
+
+
+/* ----------------RESPONSIVE---------------- */
+
+@media (min-width: 710px) {
+  .fullcontainer {
+    flex-direction: row;
+  }
+
+  .fullcontainer .left {
+    width: 50%;
+  }
+
+  .fullcontainer .right {
+    width: 50%;
+  }
+
+  .fullcontainer .center {
+
+  }
+
+  .imagebg{
+    height: auto;
+  }
+}

@@ -87,36 +87,6 @@ a {
 
 
 
-.container {
-  width: 100%;
-  height: auto;
-  max-width: 900px;
-  /* background-color: gray; */
-  margin: 0 auto;
-}
-
-#presentation {
-  padding: 20px;
-  color: #ccc;
-}
-
-#services {
-  width: 100%;
-}
-
-#services div.service {
-  background: gray;
-  margin:5px;
-}
-
-#services div.service img {
-  width: 100%;
-  max-width: 300px;
-  float: left;
-}
-
-
-
 /* ----------------RESPONSIVE---------------- */
 
 @media (min-width: 425px) {

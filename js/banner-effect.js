@@ -16,6 +16,7 @@ $(document).ready(function(){
 
   //-----------------------------//
 
+  // Movimiento de Imgen BG ( SI FUNCA! )
   // $('.banner').mousemove(function(event) {
   //   var moveX = ( (winWidth / 2) - event.pageX) * 0.03;
   //   var moveY = ( (winWidth / 2) - event.pageY) * 0.03;
