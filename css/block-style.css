@@ -32,12 +32,13 @@
   width: 100%;
   height: auto;
   /* max-width: 900px; */
-  background-color: #1a1a1a;
+  /* background-color: #1a1a1a; */
+  background-color: #080407;
   margin: 0 auto;
 
   display: flex;
   flex-direction: column;
-  color: #f2f2f2;
+  color: #cccccc;
 }
 
 .adjustcentertext {
@@ -69,11 +70,19 @@
   background-color: pink;
   background-image: url(../images/bg/poisoned-2.png);
   background-repeat: no-repeat;
-  /* background-attachment: fixed; */
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.left.imagebg {
   background-position: center;
 }
 
-.parte1 {
+.right.imagebg {
+  background-position: center;
+}
+
+.margin100 {
   margin-top: 100px;
   margin-bottom: 100px;
 }
@@ -143,9 +152,18 @@
     height: auto;
   }
 
+  .left.imagebg {
+    background-position: left;
+  }
+
+  .right.imagebg {
+    background-position: right;
+  }
+
   #intro-images {
     display: flex;
     justify-content:space-between;
     flex-direction: row;
   }
+
 }

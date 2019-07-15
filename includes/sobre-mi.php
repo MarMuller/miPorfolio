@@ -1,9 +1,9 @@
 <!-- INTRO -->
-<div class="bg-container" style="background:gray;">
+<div class="bg-container" style="background:red;">
 
   <div class="fullcontainer adjustcentertext">
 
-    <div class="center parte1">
+    <div class="center margin100">
 
       <div id="intro-images">
         <div class="introimage"> <img src="images/png/example-1.png" alt=""> </div>
