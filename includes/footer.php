@@ -21,14 +21,14 @@
       </ul>
     </div> -->
 
+    <p id="my-copyright"> <a href="#">Marina A. Müller</a> © Site's Disign & Coding </p>
+
     <div class="redes">
       <a href="#"><i class='fab fa-facebook-f'></i></a>
-      <a href="#"><i class='fab fa-linkedin-in'></i></a>
       <a href="#"><i class='fab fa-behance'></i></a>
+      <a href="#"><i class='fab fa-linkedin-in'></i></a>
       <a href="#"><i class='fab fa-instagram'></i></a>
     </div>
-
-    <p> Sitio web diseñado y programado por <a href="#">Marina A. Müller</a> </p>
 
   </footer>
 

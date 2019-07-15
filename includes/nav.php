@@ -23,9 +23,6 @@
         <?php include('includes/divider.php');?>
         <?php include('images/svg/dot.svg');?>
         <li><a href="#">contacto</a></li>
-        <?php include('includes/divider.php');?>
-        <?php include('images/svg/dot.svg');?>
-        <li><a href="#"><i>/english/</i></a></li>
       </ul>
     </div>
 

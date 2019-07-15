@@ -14,6 +14,10 @@
   margin-bottom: 20px;
 }
 
+.footer-bg p#my-copyright {
+  margin-top: 10px;
+}
+
 .footer-bg p a {
   text-decoration: none;
   transition: text-decoration 1s ease;
