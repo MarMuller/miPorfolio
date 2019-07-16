@@ -31,6 +31,9 @@
 
     <!-- FIN GALERIA -->
 
+    <!-- SOBRE MÍ -->
+    <?php include('includes/myform.php');?>
+
     <!-- FOOTER -->
     <?php include('includes/footer.php');?>
 
