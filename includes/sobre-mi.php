@@ -1,4 +1,7 @@
 <!-- INTRO -->
+
+<div id="miintro"></div>
+
 <div class="bg-container">
 
   <div class="fullcontainer adjustcentertext">

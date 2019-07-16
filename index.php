@@ -18,20 +18,9 @@
     <?php include('includes/sobre-mi.php');?>
 
     <!-- GALERIA -->
+    <?php include('includes/gallery.php');?>
 
-    <div class="margin100">
-      <div class="text-maxwidth">
-        <div class="centerText whiteFont">
-          <h1>Lorem ipsum dolor sit amet</h1>
-          <h3 class="centerText" style="color:#ccc; margin-bottom:50px;">#Ilustraciones</h3>
-        </div>
-      </div>
-      <?php include('includes/gallery.php');?>
-    </div>
-
-    <!-- FIN GALERIA -->
-
-    <!-- SOBRE MÍ -->
+    <!-- CONTACTO -->
     <?php include('includes/myform.php');?>
 
     <!-- FOOTER -->

@@ -252,4 +252,32 @@ $proyectos = [
       "../images/novedades/image3.jpg"
     ]
   ],
+  [
+    "name" => "nombre19",
+    "description" => "Lorem ipsum dolor sit amet.",
+    "date" => "00/00/00",
+    "cover" => "../images/novedades/image1.jpg",
+    "photos" =>
+    [
+      "../images/novedades/image2.jpg",
+      "../images/novedades/image1.jpg",
+      "../images/novedades/image3.jpg",
+      "../images/novedades/image1.jpg",
+      "../images/novedades/image3.jpg"
+    ]
+  ],
+  [
+    "name" => "nombre20",
+    "description" => "Lorem ipsum dolor sit amet.",
+    "date" => "00/00/00",
+    "cover" => "../images/novedades/image1.jpg",
+    "photos" =>
+    [
+      "../images/novedades/image2.jpg",
+      "../images/novedades/image1.jpg",
+      "../images/novedades/image3.jpg",
+      "../images/novedades/image1.jpg",
+      "../images/novedades/image3.jpg"
+    ]
+  ],
 ];

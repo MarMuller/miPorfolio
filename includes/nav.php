@@ -13,16 +13,13 @@
 
     <div id="nav-buttons">
       <ul id="nav-list">
-        <li><a href="#presentation">sobre mí</a></li>
+        <li><a href="#miintro">sobre mí</a></li>
         <?php include('includes/divider.php');?>
         <?php include('images/svg/dot.svg');?>
-        <li><a href="#otracosa">diseño</a></li>
+        <li><a href="#migaleria">mis trabajos</a></li>
         <?php include('includes/divider.php');?>
         <?php include('images/svg/dot.svg');?>
-        <li><a href="#otraotracosa">ilustración</a></li>
-        <?php include('includes/divider.php');?>
-        <?php include('images/svg/dot.svg');?>
-        <li><a href="#">contacto</a></li>
+        <li><a href="#micontacto">contacto</a></li>
       </ul>
     </div>
 
@@ -30,9 +27,9 @@
 
 </div>
 
-<div id="mySocialMedia">
+<!-- <div id="mySocialMedia">
   <a href="#"><i class='fab fa-facebook-f'></i></a>
   <a href="#"><i class='fab fa-linkedin-in'></i></a>
   <a href="#"><i class='fab fa-behance'></i></a>
   <a href="#"><i class='fab fa-instagram'></i></a>
-</div>
+</div> -->

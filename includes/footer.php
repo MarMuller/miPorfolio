@@ -1,11 +1,9 @@
-<div class="footer-bg">
+<div class="footer-bg" style="background:#1a1a1a;padding:50px 0 0 0;">
 
   <footer>
-    <div style="margin-top: 20px;">
-      <?php include('includes/divider.php');?>
-    </div>
 
-    <div class="margin50">
+    <div class="">
+
       <div class="footer-logo">
         <a href="#"><?php echo file_get_contents("images/svg/marmuller-logo-02.svg"); ?></a>
       </div>
@@ -30,6 +28,7 @@
         <a href="#"><i class='fab fa-linkedin-in'></i></a>
         <a href="#"><i class='fab fa-instagram'></i></a>
       </div>
+
     </div>
 
   </footer>
