@@ -1,5 +1,5 @@
 <!-- INTRO -->
-<div class="bg-container" style="background:red;">
+<div class="bg-container">
 
   <div class="fullcontainer adjustcentertext">
 
@@ -24,7 +24,7 @@
 </div>
 
 <!-- 1111 -->
-<div class="bg-container" style="background:gray;">
+<div class="bg-container">
 
   <div class="fullcontainer">
 
@@ -44,7 +44,7 @@
 </div>
 
 <!-- 2222 -->
-<div class="bg-container" style="background:gray;">
+<div class="bg-container">
 
   <div class="fullcontainer adjustcentertext">
 
@@ -63,7 +63,7 @@
 </div>
 
 <!-- 3333 -->
-<div class="bg-container" style="background:gray;">
+<div class="bg-container">
 
   <div class="fullcontainer">
 
