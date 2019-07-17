@@ -60,9 +60,14 @@
   padding: 50px;
 }
 
-.fullcontainer .center.whitebg {
+.whitebg {
   background-color: #f2f2f2;
   color: #1a1a1a;
+}
+
+.verticalAlign {
+  display:flex;
+  align-items:center !important;
 }
 
 .nobg {
@@ -74,7 +79,6 @@
   /* background-color: pink; */
   background-repeat: no-repeat;
   background-position: center;
-  background-attachment: fixed;
 }
 
 .imgfullbody {
@@ -156,6 +160,35 @@
   text-align: center;
 }
 
+
+#allmyinfo {
+  display: flex;
+  flex-direction: column;
+  margin: 30px 0 -30px 0;
+}
+
+#allmyinfo .col2 {
+  margin-left: 0px;
+}
+
+#allmyinfo .myinfo {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+  /* si cambio este tambien el margen negativo de #allmyinfo */
+}
+
+#allmyinfo .myinfo h3 {
+  margin: 0 0 5px 0;
+  font-weight: normal;
+}
+
+#allmyinfo .myinfo h3 span {
+  display:inline;
+  background-color: #4d2e6b;
+  padding: 1px 6px;
+}
+
 /* ----------------RESPONSIVE---------------- */
 
 @media (min-width: 710px) {
@@ -191,6 +224,19 @@
     display: flex;
     justify-content:space-between;
     flex-direction: row;
+  }
+
+
+}
+
+@media (min-width: 1024px) {
+
+  #allmyinfo {
+    flex-direction: row;
+  }
+
+  #allmyinfo .col2 {
+    margin-left: 50px;
   }
 
 }

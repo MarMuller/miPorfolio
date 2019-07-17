@@ -17,7 +17,8 @@
       <div id="intro-text">
         <div class="centerText">
           <h1>Lorem ipsum dolor sit amet</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <p style="margin-bottom:35px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          <a href="#" class="mybutton">Descargar CV</a>
         </div>
       </div>
 
@@ -32,15 +33,46 @@
 
   <div class="fullcontainer">
 
-    <div class="left imagebg imgfullbody" style="height:600px;">
+    <div class="left imagebg imgfullbody" style="height:800px;">
       <!-- Parte 1 -->
     </div>
 
-    <div class="right" style="height:600px;display:flex;align-items:center;">
+    <div class="right verticalAlign" style="height:auto;">
       <div class="leftText">
         <span>Parte 2</span>
+
         <h1>Lorem ipsum dolor sit amet</h1>
+
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+        <div id="allmyinfo">
+          <div class="col1">
+            <div class="myinfo">
+              <h3><span>Nombre completo</span></h3>
+              <span>Marina Andrea Müller</span>
+            </div>
+
+            <div class="myinfo">
+              <h3><span>Nacionalidad</span></h3>
+              <span>Argentina/Italiana</span>
+            </div>
+          </div>
+
+          <div class="col2">
+            <div class="myinfo">
+              <h3><span>Fecha de nacimiento</span></h3>
+              <span>9 de Julio, 1993</span>
+            </div>
+
+            <div class="myinfo">
+              <h3><span>Idiomas</span></h3>
+              <span>Español/Inglés</span>
+            </div>
+          </div>
+        </div>
+
       </div>
     </div>
 
@@ -98,7 +130,7 @@
       <!-- Parte 1 -->
     </div>
 
-    <div class="right" style="height:600px;display:flex;align-items:center;">
+    <div class="right verticalAlign" style="height:600px;">
       <div class="leftText">
         <span>Parte 2</span>
         <h1>Lorem ipsum dolor sit amet</h1>
@@ -115,7 +147,7 @@
 
   <div class="fullcontainer">
 
-    <div class="left" style="height:600px;display:flex;align-items:center;">
+    <div class="left verticalAlign" style="height:600px;">
       <div class="leftText">
         <span>Parte 2</span>
         <h1>Lorem ipsum dolor sit amet</h1>
@@ -125,6 +157,48 @@
 
     <div class="right imagebg imgejemplo" style="height:600px;">
       <!-- Parte 1 -->
+    </div>
+
+  </div>
+</div>
+
+
+<!-- 6666 -->
+<div class="bg-container">
+
+  <div class="fullcontainer">
+
+    <div class="left imagebg imgejemplo" style="height:600px;">
+      <!-- Parte 1 -->
+    </div>
+
+    <div class="right verticalAlign" style="height:600px;">
+      <div class="leftText">
+        <span>Parte 2</span>
+        <h1>Lorem ipsum dolor sit amet</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+<!-- 7777 -->
+<div class="bg-container">
+
+  <div class="fullcontainer imgejemplo imgcentrado imgfixed">
+
+    <!-- <div class="left" style="height:500px;display:flex;align-items:center;">
+      <div class="leftText">
+        <span>Parte 2</span>
+        <h1>Lorem ipsum dolor sit amet</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
+    </div> -->
+
+    <div class="right imagebg" style="height:500px;">
+      <!-- Parte 2 -->
     </div>
 
   </div>

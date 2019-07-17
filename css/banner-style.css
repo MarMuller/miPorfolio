@@ -92,7 +92,7 @@
   margin-right: 8px;
   /* border: 1px solid #ccc; */
   /* border-radius: 1px 10px; */
-  border-radius: 8px;
+  border-radius: 5px;
   float: left;
   clear: left;
   background-color: rgba(255, 255, 255, 0.1);
@@ -125,7 +125,7 @@
     object-position: 0 35%;
   }
   .txt-container {
-    bottom: 10%;
+    bottom: 15%;
   }
 
   /* .txt-container {
@@ -180,4 +180,14 @@
   .welcome-banner {
     margin-top: 60px;
   } */
+
+  .txt-container {
+    /* bottom: 15%; */
+  }
+
+  .welcome-banner {
+    transform: scale(1.2);
+    margin-bottom: 25px;
+  }
+
 }

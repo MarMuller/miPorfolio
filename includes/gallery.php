@@ -2,11 +2,11 @@
 
   <div class="text-maxwidth">
     <div class="centerText whiteFont">
-      <h1 style="margin:0 0 10px 0;">Lorem ipsum dolor sit amet</h1>
+      <h1 style="margin:0 0 10px 0;">Algunos de mis trabajos</h1>
       <div class="centerText" style="margin-bottom:50px;">
-        <a class="filter">#Ilustraciones</a>
-        <a class="filter">#Ilustraciones</a>
-        <a class="filter">#Ilustraciones</a>
+        <a href="#" class="filter">#Ilustraciones</a>
+        <a href="#" class="filter">#Ilustraciones</a>
+        <a href="#" class="filter">#Ilustraciones</a>
       </div>
     </div>
   </div>
