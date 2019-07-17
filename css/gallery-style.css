@@ -1,3 +1,7 @@
+#migaleria {
+  background-color: #1a1a1a;
+}
+
 .filter {
   font-size: 22px;
   color:#ccc;
@@ -7,7 +11,7 @@
 
 .myGallery {
   overflow: hidden;
-  /* background-color: yellow; */
+  background-color: yellow;
 }
 
 .myGallery ul {
@@ -23,8 +27,8 @@
 
 li.previewGallery {
   flex: 1 0 300px; /* Three values: flex-grow | flex-shrink | flex-basis */
-  border-right: 2px solid #0d0d0d;
-  border-bottom: 2px solid #0d0d0d;
+  border-right: 2px solid #1a1a1a;
+  border-bottom: 2px solid #1a1a1a;
   background-color: #33cccc;
 }
 

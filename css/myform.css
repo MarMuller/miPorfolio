@@ -37,6 +37,9 @@
   border: 0;
   border-radius: 5px;
   font-size: 14px;
+  -webkit-box-shadow: inset 0px 0px 0px 1px #ccc;
+  -moz-box-shadow: inset 0px 0px 0px 1px #ccc;
+  box-shadow: inset 0px 0px 0px 1px #ccc;
 }
 
 .myForm input:focus {

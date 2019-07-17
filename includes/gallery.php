@@ -1,4 +1,4 @@
-<div id="migaleria" class="margin100">
+<div id="migaleria" style="padding-top:100px;padding-bottom:2px;" >
 
   <div class="text-maxwidth">
     <div class="centerText whiteFont">

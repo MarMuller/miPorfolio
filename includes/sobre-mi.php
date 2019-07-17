@@ -17,8 +17,8 @@
       <div id="intro-text">
         <div class="centerText">
           <h1>Lorem ipsum dolor sit amet</h1>
-          <p style="margin-bottom:35px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-          <a href="#" class="mybutton">Descargar CV</a>
+          <p style="margin-bottom:25px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          <a href="#" class="mybutton"><span>Descargar CV</span></a>
         </div>
       </div>
 
@@ -50,25 +50,25 @@
         <div id="allmyinfo">
           <div class="col1">
             <div class="myinfo">
-              <h3><span>Nombre completo</span></h3>
+              <h3><span class="title">Nombre completo</span></h3>
               <span>Marina Andrea Müller</span>
             </div>
 
             <div class="myinfo">
-              <h3><span>Nacionalidad</span></h3>
-              <span>Argentina/Italiana</span>
+              <h3><span class="title">Nacionalidad</span></h3>
+              <span>Argentina / Italiana</span>
             </div>
           </div>
 
           <div class="col2">
             <div class="myinfo">
-              <h3><span>Fecha de nacimiento</span></h3>
+              <h3><span class="title">Fecha de nacimiento</span></h3>
               <span>9 de Julio, 1993</span>
             </div>
 
             <div class="myinfo">
-              <h3><span>Idiomas</span></h3>
-              <span>Español/Inglés</span>
+              <h3><span class="title">Idiomas</span></h3>
+              <span>Español / Inglés</span>
             </div>
           </div>
         </div>
