@@ -1,3 +1,10 @@
+.filter {
+  font-size: 22px;
+  color:#ccc;
+  padding: 0 10px;
+  opacity: 0.8;
+}
+
 .myGallery {
   overflow: hidden;
   /* background-color: yellow; */

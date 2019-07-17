@@ -65,12 +65,31 @@
   color: #1a1a1a;
 }
 
+.nobg {
+  background: none;
+}
+
 .imagebg {
   height: 300px;
-  background-color: pink;
-  background-image: url(../images/bg/poisoned-2.png);
+  /* background-color: pink; */
   background-repeat: no-repeat;
   background-position: center;
+  background-attachment: fixed;
+}
+
+.imgfullbody {
+  /* background-image: url(../images/bg/poisoned-2.png); */
+}
+
+.imgejemplo {
+  background-image: url(../images/bg/poisoned-2.png);
+}
+
+.imgcentrado {
+  background-position: center;
+}
+
+.imgfixed {
   background-attachment: fixed;
 }
 

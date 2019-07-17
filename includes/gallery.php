@@ -2,8 +2,12 @@
 
   <div class="text-maxwidth">
     <div class="centerText whiteFont">
-      <h1>Lorem ipsum dolor sit amet</h1>
-      <h3 class="centerText" style="color:#ccc; margin-bottom:50px;">#Ilustraciones</h3>
+      <h1 style="margin:0 0 10px 0;">Lorem ipsum dolor sit amet</h1>
+      <div class="centerText" style="margin-bottom:50px;">
+        <a class="filter">#Ilustraciones</a>
+        <a class="filter">#Ilustraciones</a>
+        <a class="filter">#Ilustraciones</a>
+      </div>
     </div>
   </div>
 
