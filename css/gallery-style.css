@@ -4,14 +4,21 @@
 
 .filter {
   font-size: 22px;
-  color:#ccc;
-  padding: 0 10px;
+  color: #33cccc;
+  padding: 0 5px;
+  font-style: italic;
   opacity: 0.8;
+  transition: none;
+}
+
+.filter span:hover {
+  border-bottom: 2px solid;
+  transition: none;
 }
 
 .myGallery {
   overflow: hidden;
-  background-color: yellow;
+  /* background-color: yellow; */
 }
 
 .myGallery ul {
@@ -30,6 +37,13 @@ li.previewGallery {
   border-right: 2px solid #1a1a1a;
   border-bottom: 2px solid #1a1a1a;
   background-color: #33cccc;
+  opacity: 0.5;
+  transition: opacity 0.5s ease;
+}
+
+li.previewGallery:hover {
+  opacity: 1.0;
+  transition: opacity 0.5s ease;
 }
 
 /* ----------------RESPONSIVE---------------- */

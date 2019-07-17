@@ -80,11 +80,10 @@
   color: #4d2e6b;
   cursor: pointer;
   font-weight: bold;
-  opacity: 0.8;
   transition: 0.5s ease;
+  border: 1px solid #33a6cc;
 }
 
 .myForm button:hover {
-  opacity: 1.0;
   transition: 0.5s ease;
 }

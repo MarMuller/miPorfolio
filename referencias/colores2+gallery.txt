@@ -1,0 +1,7 @@
+cyan #33cccc
+violeta #4d2e6b
+
+
+'.$proyectos[$num]["name"].'<br>
+              '.$proyectos[$num]["description"].'<br>
+              '.$proyectos[$num]["date"].'<br>

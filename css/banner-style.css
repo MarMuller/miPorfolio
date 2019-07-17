@@ -100,7 +100,7 @@
 }
 
 .hashtags-banner li:hover {
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: #4d2e6b;
   transition: background-color 0.5s ease-out;
 }
 

@@ -4,9 +4,9 @@
     <div class="centerText whiteFont">
       <h1 style="margin:0 0 10px 0;">Algunos de mis trabajos</h1>
       <div class="centerText" style="margin-bottom:50px;">
-        <a href="#" class="filter">#Ilustraciones</a>
-        <a href="#" class="filter">#Ilustraciones</a>
-        <a href="#" class="filter">#Ilustraciones</a>
+        <a href="#" class="filter"><span>#Ilustraciones</span></a>
+        <a href="#" class="filter"><span>#Ilustraciones</span></a>
+        <a href="#" class="filter"><span>#Ilustraciones</span></a>
       </div>
     </div>
   </div>
@@ -26,9 +26,6 @@
             echo '
 
             <li class="previewGallery">
-              '.$proyectos[$num]["name"].'<br>
-              '.$proyectos[$num]["description"].'<br>
-              '.$proyectos[$num]["date"].'<br>
             </li>
 
             ';
