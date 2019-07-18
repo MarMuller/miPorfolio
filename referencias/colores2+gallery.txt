@@ -5,3 +5,7 @@ violeta #4d2e6b
 '.$proyectos[$num]["name"].'<br>
               '.$proyectos[$num]["description"].'<br>
               '.$proyectos[$num]["date"].'<br>
+
+
+negative margin-top of half the images height.
+negative margin-left of half the images width.
