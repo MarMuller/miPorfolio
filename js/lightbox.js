@@ -12,13 +12,15 @@ function openLightbox() {
 
 // Elegir Imagen
 function chooseImage() {
-  console.log("Ja!");
+  // console.log("Ja!");
+  var prueba = "<?php echo $id ?>";
+  alert( prueba );
 }
 
 // Cargar Lightbox
 function loadLightbox() {
-  openLightbox();
   chooseImage();
+  openLightbox();
 }
 
 // Cierra Lightbox
