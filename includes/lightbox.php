@@ -7,7 +7,7 @@
       <div><a><span>cerrar</span></a></div>
     </div>
 
-    <img src="images/art/art-01.png" class="fullsizeimage" alt="">
+    <img src="<?php echo $proyectos[0]["fullsize"]; ?>" class="fullsizeimage" alt="">
 
   </div>
 

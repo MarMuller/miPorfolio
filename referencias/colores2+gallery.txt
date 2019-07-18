@@ -9,3 +9,21 @@ violeta #4d2e6b
 
 negative margin-top of half the images height.
 negative margin-left of half the images width.
+
+
+
+[
+    "id" => "1",
+    "name" => "nombre2",
+    "description" => "Lorem ipsum dolor sit amet.",
+    "date" => "00/00/00",
+    "cover" => "images/art/art-01.png",
+    "photos" =>
+    [
+      "../images/novedades/image2.jpg",
+      "../images/novedades/image1.jpg",
+      "../images/novedades/image3.jpg",
+      "../images/novedades/image1.jpg",
+      "../images/novedades/image3.jpg"
+    ]
+  ],

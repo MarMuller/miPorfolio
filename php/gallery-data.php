@@ -1,10 +1,11 @@
 <?php
 $proyectos = [
   [
+    "id" => "0",
     "name" => "nombre1",
-    "description" => "Lorem ipsum dolor sit amet.",
     "date" => "00/00/00",
-    "cover" => "../images/novedades/image1.jpg",
+    "cover" => "images/art/art-01.png",
+    "fullsize" => "images/art/art-01.png",
     "photos" =>
     [
       "../images/novedades/image2.jpg",
@@ -15,10 +16,11 @@ $proyectos = [
     ]
   ],
   [
+    "id" => "1",
     "name" => "nombre2",
-    "description" => "Lorem ipsum dolor sit amet.",
     "date" => "00/00/00",
-    "cover" => "../images/novedades/image1.jpg",
+    "cover" => "images/art/art-01.png",
+    "fullsize" => "images/art/art-01.png",
     "photos" =>
     [
       "../images/novedades/image2.jpg",
@@ -29,10 +31,11 @@ $proyectos = [
     ]
   ],
   [
+    "id" => "2",
     "name" => "nombre3",
-    "description" => "Lorem ipsum dolor sit amet.",
     "date" => "00/00/00",
-    "cover" => "../images/novedades/image1.jpg",
+    "cover" => "images/art/art-01.png",
+    "fullsize" => "images/art/art-01.png",
     "photos" =>
     [
       "../images/novedades/image2.jpg",
@@ -43,10 +46,11 @@ $proyectos = [
     ]
   ],
   [
+    "id" => "3",
     "name" => "nombre4",
-    "description" => "Lorem ipsum dolor sit amet.",
     "date" => "00/00/00",
-    "cover" => "../images/novedades/image1.jpg",
+    "cover" => "images/art/art-01.png",
+    "fullsize" => "images/art/art-01.png",
     "photos" =>
     [
       "../images/novedades/image2.jpg",
@@ -57,10 +61,11 @@ $proyectos = [
     ]
   ],
   [
+    "id" => "4",
     "name" => "nombre5",
-    "description" => "Lorem ipsum dolor sit amet.",
     "date" => "00/00/00",
-    "cover" => "../images/novedades/image1.jpg",
+    "cover" => "images/art/art-01.png",
+    "fullsize" => "images/art/art-01.png",
     "photos" =>
     [
       "../images/novedades/image2.jpg",
@@ -71,10 +76,11 @@ $proyectos = [
     ]
   ],
   [
+    "id" => "5",
     "name" => "nombre6",
-    "description" => "Lorem ipsum dolor sit amet.",
     "date" => "00/00/00",
-    "cover" => "../images/novedades/image1.jpg",
+    "cover" => "images/art/art-01.png",
+    "fullsize" => "images/art/art-01.png",
     "photos" =>
     [
       "../images/novedades/image2.jpg",
@@ -85,10 +91,11 @@ $proyectos = [
     ]
   ],
   [
+    "id" => "6",
     "name" => "nombre7",
-    "description" => "Lorem ipsum dolor sit amet.",
     "date" => "00/00/00",
-    "cover" => "../images/novedades/image1.jpg",
+    "cover" => "images/art/art-01.png",
+    "fullsize" => "images/art/art-01.png",
     "photos" =>
     [
       "../images/novedades/image2.jpg",
@@ -99,10 +106,11 @@ $proyectos = [
     ]
   ],
   [
+    "id" => "7",
     "name" => "nombre8",
-    "description" => "Lorem ipsum dolor sit amet.",
     "date" => "00/00/00",
-    "cover" => "../images/novedades/image1.jpg",
+    "cover" => "images/art/art-01.png",
+    "fullsize" => "images/art/art-01.png",
     "photos" =>
     [
       "../images/novedades/image2.jpg",
@@ -113,10 +121,11 @@ $proyectos = [
     ]
   ],
   [
+    "id" => "8",
     "name" => "nombre9",
-    "description" => "Lorem ipsum dolor sit amet.",
     "date" => "00/00/00",
-    "cover" => "../images/novedades/image1.jpg",
+    "cover" => "images/art/art-01.png",
+    "fullsize" => "images/art/art-01.png",
     "photos" =>
     [
       "../images/novedades/image2.jpg",
@@ -127,10 +136,11 @@ $proyectos = [
     ]
   ],
   [
+    "id" => "9",
     "name" => "nombre10",
-    "description" => "Lorem ipsum dolor sit amet.",
     "date" => "00/00/00",
-    "cover" => "../images/novedades/image1.jpg",
+    "cover" => "images/art/art-01.png",
+    "fullsize" => "images/art/art-01.png",
     "photos" =>
     [
       "../images/novedades/image2.jpg",
@@ -141,10 +151,11 @@ $proyectos = [
     ]
   ],
   [
+    "id" => "10",
     "name" => "nombre11",
-    "description" => "Lorem ipsum dolor sit amet.",
     "date" => "00/00/00",
-    "cover" => "../images/novedades/image1.jpg",
+    "cover" => "images/art/art-01.png",
+    "fullsize" => "images/art/art-01.png",
     "photos" =>
     [
       "../images/novedades/image2.jpg",
@@ -155,10 +166,11 @@ $proyectos = [
     ]
   ],
   [
+    "id" => "11",
     "name" => "nombre12",
-    "description" => "Lorem ipsum dolor sit amet.",
     "date" => "00/00/00",
-    "cover" => "../images/novedades/image1.jpg",
+    "cover" => "images/art/art-01.png",
+    "fullsize" => "images/art/art-01.png",
     "photos" =>
     [
       "../images/novedades/image2.jpg",

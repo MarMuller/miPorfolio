@@ -8,29 +8,32 @@
         <a href="#" class="filter"><span>#Ilustraciones</span></a>
         <a href="#" class="filter"><span>#Ilustraciones</span></a>
       </div>
-    </div>
+</div>
   </div>
 
   <div class="myGallery">
 
-    <?php
-    // la info de los proyectos está acá:
-    include 'php/gallery-data.php';
-    ?>
+    <script type="text/javascript" src="js/lightbox.js"></script>
 
     <ul>
 
       <?php
-        $num = 0;
+
         foreach ($proyectos as $proyecto) {
-            echo '
 
-            <li class="previewGallery">
-            </li>
+          $id = $proyecto["id"] ;
+          $name = $proyecto["name"] ;
+          $date = $proyecto["date"] ;
+          $cover = $proyecto["cover"] ;
+          $fullsize = $proyecto["fullsize"] ;
 
-            ';
+          echo '
 
-            $num = $num + 1;
+          <li class="previewGallery" onclick="loadLightbox()" style="background-image:url('.$cover.');background-size:cover;background-position:center;">
+          </li>
+
+          ';
+
         }
 
       ?>

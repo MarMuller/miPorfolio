@@ -1,0 +1,87 @@
+.centerContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#formContainer {
+  width:100%;
+  max-width:600px;
+  /* background-color: pink; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0 70px 0 !important;
+}
+
+.myForm {
+  width: 100%;
+  /* background-color: green; */
+  padding: 22px;
+  border-radius: 10px;
+}
+
+.formTag {
+  height: 30px;
+  margin-top: 25px;
+}
+
+.formTagException {
+  margin-top: 0px;
+}
+
+.myForm input,textarea {
+  width: calc(100% - 24px);
+  padding: 12px;
+  margin: 0;
+  border: 0;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.myForm input:focus {
+  color:#4d2e6b;
+  font-weight: bold;
+  outline: 0;
+  -webkit-box-shadow: inset 0px 0px 0px 2px #33cccc;
+  -moz-box-shadow: inset 0px 0px 0px 2px #33cccc;
+  box-shadow: inset 0px 0px 0px 2px #33cccc;
+}
+
+.myForm textarea:focus {
+  color:#4d2e6b;
+  font-weight: bold;
+  outline: 0;
+  -webkit-box-shadow: inset 0px 0px 0px 2px #33cccc;
+  -moz-box-shadow: inset 0px 0px 0px 2px #33cccc;
+  box-shadow: inset 0px 0px 0px 2px #33cccc;
+}
+
+.myForm input {
+  height: 30px;
+}
+
+.myForm textarea {
+  resize: none;
+  height: 200px;
+}
+
+.myForm button {
+  width: 100%;
+  height: 40px;
+  border: 0;
+  border-radius: 5px;
+  margin-top: 50px;
+  font-size: 14px;
+  background-color:#33cccc;
+  color: #4d2e6b;
+  cursor: pointer;
+  font-weight: bold;
+  opacity: 0.8;
+  transition: 0.5s ease;
+}
+
+.myForm button:hover {
+  opacity: 1.0;
+  transition: 0.5s ease;
+}
