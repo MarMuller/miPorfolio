@@ -11,7 +11,8 @@
   <link rel="stylesheet" type="text/css" href="css/banner-style.css">
   <link rel="stylesheet" type="text/css" href="css/nav-style.css">
   <link rel="stylesheet" type="text/css" href="css/footer.css">
-  <link rel="stylesheet" type="text/css" href="css/myform.css">
+  <link rel="stylesheet" type="text/css" href="css/myform-style.css">
+  <link rel="stylesheet" type="text/css" href="css/lightbox-style.css">
 
   <!-- JS -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>

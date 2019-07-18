@@ -1,0 +1,28 @@
+div.mylightbox {
+  position: fixed;
+  background-color: rgba(0,0,0,0.7);
+  color: #ccc;
+  width: calc(100% -20px);
+  max-width: 900px;
+  z-index: 1000;
+  text-align: center;
+  padding: 20px;
+  top: 50%;
+  left: 50%;
+}
+
+.mylightbox img.fullsizeimage {
+  width: 100%;
+  height: auto;
+}
+
+.imginfo {
+  display: flex;
+  margin-bottom: 10px;
+  justify-content: space-between;
+}
+
+.imginfo a span {
+  border-bottom: 1px solid;
+  cursor: pointer;
+}

@@ -8,6 +8,9 @@
     <!-- DERECHOS -->
     <?php //include('includes/copyright.php');?>
 
+    <!-- LIGHTBOX -->
+    <?php include('includes/lightbox.php');?>
+
     <!-- HEADER -->
     <?php include('includes/nav.php');?>
 

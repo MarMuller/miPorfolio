@@ -1,7 +1,7 @@
-<div id="migaleria" style="padding-top:100px;padding-bottom:2px;" >
+<div id="migaleria" class="whitebg" style="padding-top:100px;padding-bottom:2px;" >
 
   <div class="text-maxwidth">
-    <div class="centerText whiteFont">
+    <div class="centerText">
       <h1 style="margin:0 0 10px 0;">Algunos de mis trabajos</h1>
       <div class="centerText" style="margin-bottom:50px;">
         <a href="#" class="filter"><span>#Ilustraciones</span></a>
