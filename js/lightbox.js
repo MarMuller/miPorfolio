@@ -11,16 +11,19 @@ function openLightbox() {
 }
 
 // Elegir Imagen
-function chooseImage() {
-  // console.log("Ja!");
-  var prueba = "<?php echo $id ?>";
-  alert( prueba );
-}
+function loadLightbox(imgClicked) {
 
-// Cargar Lightbox
-function loadLightbox() {
-  chooseImage();
+  var imgsrc = imgClicked;
+  console.log(imgsrc);
+
+  var elemImage = $('img.fullsizeimage');
+  // elemImage.src = imgsrc ;
+  $(elemImage).attr("src",imgsrc);
+
+  console.log(elemImage);
+
   openLightbox();
+
 }
 
 // Cierra Lightbox

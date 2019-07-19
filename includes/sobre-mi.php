@@ -18,7 +18,7 @@
         <div class="centerText">
           <h1>Lorem ipsum dolor sit amet</h1>
           <p style="margin-bottom:25px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-          <a href="#" class="mybutton"><span>Descargar CV</span></a>
+          <a href="images/pdf/CV2019.pdf" target="_blank" class="mybutton"><span>Descargar CV</span></a>
         </div>
       </div>
 

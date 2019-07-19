@@ -17,7 +17,11 @@
 
     <ul>
 
+      <?php //include("php/gallery-lightbox.php"); ?>
+
       <?php
+
+        $n = 0;
 
         foreach ($proyectos as $proyecto) {
 
@@ -25,11 +29,11 @@
           $name = $proyecto["name"] ;
           $date = $proyecto["date"] ;
           $cover = $proyecto["cover"] ;
-          $fullsize = $proyecto["fullsize"] ;
+          $fullsize = "'".$proyecto["fullsize"]."'" ;
 
-          echo '
+          $n = $n + 1;
 
-          <li class="previewGallery" onclick="loadLightbox()" style="background-image:url('.$cover.');background-size:cover;background-position:center;">
+          echo '<li class="previewGallery num'.$n.'" onclick="loadLightbox('.$fullsize.')" style="background-image:url('.$cover.');background-size:cover;background-position:center;">
           </li>
 
           ';

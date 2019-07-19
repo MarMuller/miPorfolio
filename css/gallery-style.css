@@ -37,7 +37,7 @@ li.previewGallery {
   border-right: 2px solid #f2f2f2;
   border-bottom: 2px solid #f2f2f2;
   background-color: #33cccc;
-  opacity: 0.5;
+  opacity: 0.8;
   transition: opacity 0.5s ease;
 }
 

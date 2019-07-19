@@ -11,7 +11,7 @@ div.mylightbox {
 
   overflow: auto;
   background-color: rgba(0,0,0,0.8);
-  
+
   display: flex;
   justify-content: center;
   align-items: center;
@@ -20,6 +20,7 @@ div.mylightbox {
 .lightbox-container {
   width: 100%;
   max-width: 900px;
+  max-height: 90%;
   margin: 10px;
 }
 
