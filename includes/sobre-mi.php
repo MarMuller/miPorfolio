@@ -50,24 +50,24 @@
         <div id="allmyinfo">
           <div class="col1">
             <div class="myinfo">
-              <h3><span class="title">Nombre completo:</span></h3>
+              <h3><span class="title">Nombre completo</span></h3>
               <span>Marina Andrea Müller</span>
             </div>
 
             <div class="myinfo">
-              <h3><span class="title">Nacionalidad:</span></h3>
+              <h3><span class="title">Nacionalidad</span></h3>
               <span>Argentina / Italiana</span>
             </div>
           </div>
 
           <div class="col2">
             <div class="myinfo">
-              <h3><span class="title">Fecha de nacimiento:</span></h3>
+              <h3><span class="title">Fecha de nacimiento</span></h3>
               <span>9 de Julio, 1993</span>
             </div>
 
             <div class="myinfo">
-              <h3><span class="title">Idiomas:</span></h3>
+              <h3><span class="title">Idiomas</span></h3>
               <span>Español / Inglés</span>
             </div>
           </div>
