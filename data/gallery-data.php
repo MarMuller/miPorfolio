@@ -162,7 +162,7 @@ $proyectos = [
   ],
   [
     "id" => "10",
-    "name" => "Tsukiyama Shuu (1)",
+    "name" => "Tsukiyama Shuu I",
     "date" => "00/00/00",
     "behance" => "https://www.behance.net/gallery/24186123/Dolce-Shuu",
     "cover" => "images/art/art-11.png",
@@ -178,7 +178,7 @@ $proyectos = [
   ],
   [
     "id" => "11",
-    "name" => "Tsukiyama Shuu (2)",
+    "name" => "Tsukiyama Shuu II",
     "date" => "00/00/00",
     "behance" => "https://www.behance.net/gallery/24047763/Reflective-Shuu",
     "cover" => "images/art/art-12.png",
