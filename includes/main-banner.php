@@ -8,9 +8,9 @@
     </div>
 
     <ul class="hashtags-banner">
-      <li><a href="#"><span>#</span>illustration</a></li>
-      <li><a href="#"><span>#</span>graphicdesign</a></li>
-      <li><a href="#"><span>#</span>webcoding</a></li>
+      <li><a href="#soyIlustradora"><span>#</span>illustration</a></li>
+      <li><a href="#soyDisenadora"><span>#</span>graphicdesign</a></li>
+      <li><a href="#soyProgramadora"><span>#</span>webcoding</a></li>
     </ul>
 
   </div>

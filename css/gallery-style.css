@@ -33,17 +33,20 @@
 }
 
 li.previewGallery {
+  cursor: pointer;
   flex: 1 0 300px; /* Three values: flex-grow | flex-shrink | flex-basis */
   border-right: 2px solid #f2f2f2;
   border-bottom: 2px solid #f2f2f2;
   background-color: #33cccc;
-  opacity: 0.8;
-  transition: opacity 0.5s ease;
+  filter: grayscale(60%);
+  opacity: 0.9;
+  transition: 0.5s ease;
 }
 
 li.previewGallery:hover {
+  filter: grayscale(10%);
   opacity: 1.0;
-  transition: opacity 0.5s ease;
+  transition: 0.5s ease;
 }
 
 /* ----------------RESPONSIVE---------------- */

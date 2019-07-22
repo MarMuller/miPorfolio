@@ -23,7 +23,7 @@ span {
 a {
   color: inherit; /* no blue */
   text-decoration: inherit; /* no underline */
-  transition: 0.5s ease;
+  /* transition: 0.5s ease; */
 }
 
 /* IMAGE PROPERTIES */
@@ -88,6 +88,9 @@ a.mybutton:hover {
 .leftText { text-align:left; }
 .rightText { text-align:right; }
 
+/* IMAGE PROPERTIES */
+.img100 { width:100%; }
+
 /* FLEX PROPERTIES */
 .flex-spacebetween {
   display: flex;
@@ -114,17 +117,14 @@ a.mybutton:hover {
   padding-top: 50px;
   padding-bottom: 50px;
 }
-
 .padding100 {
   padding-top: 100px;
   padding-bottom: 100px;
 }
-
 .margin50 {
   margin-top: 50px;
   margin-bottom: 50px;
 }
-
 .margin100 {
   margin-top: 100px;
   margin-bottom: 100px;

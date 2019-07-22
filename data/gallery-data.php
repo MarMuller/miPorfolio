@@ -2,8 +2,9 @@
 $proyectos = [
   [
     "id" => "0",
-    "name" => "nombre1",
+    "name" => "Gamer Twins",
     "date" => "00/00/00",
+    "behance" => "https://www.behance.net/gallery/27211333/Gamer-My-Isologo",
     "cover" => "images/art/art-01.png",
     "fullsize" => "images/art/art-01.png",
     "photos" =>
@@ -17,8 +18,9 @@ $proyectos = [
   ],
   [
     "id" => "1",
-    "name" => "nombre2",
+    "name" => "The Joker 2019",
     "date" => "00/00/00",
+    "behance" => "https://www.behance.net/gallery/78721055/Joaquin-Pheonixs-Joker",
     "cover" => "images/art/art-02.png",
     "fullsize" => "images/art/art-02.png",
     "photos" =>
@@ -32,8 +34,9 @@ $proyectos = [
   ],
   [
     "id" => "2",
-    "name" => "nombre3",
+    "name" => "I\'m Kaneki",
     "date" => "00/00/00",
+    "behance" => "https://www.behance.net/gallery/24441505/Kaneki-20",
     "cover" => "images/art/art-03.png",
     "fullsize" => "images/art/art-03.png",
     "photos" =>
@@ -47,8 +50,9 @@ $proyectos = [
   ],
   [
     "id" => "3",
-    "name" => "nombre4",
+    "name" => "Sorcerer Concept",
     "date" => "00/00/00",
+    "behance" => "https://www.behance.net/gallery/62063761/Mago-Adelard",
     "cover" => "images/art/art-04.png",
     "fullsize" => "images/art/art-04.png",
     "photos" =>
@@ -61,9 +65,10 @@ $proyectos = [
     ]
   ],
   [
-    "id" => "4",
+    "id" => "In the Swamp (B&W)",
     "name" => "nombre5",
     "date" => "00/00/00",
+    "behance" => "https://www.behance.net/gallery/22060057/Mutsumi-B-W",
     "cover" => "images/art/art-05.png",
     "fullsize" => "images/art/art-05.png",
     "photos" =>
@@ -77,8 +82,9 @@ $proyectos = [
   ],
   [
     "id" => "5",
-    "name" => "nombre6",
+    "name" => "Lars FanART (SU)",
     "date" => "00/00/00",
+    "behance" => "https://www.behance.net/gallery/53568997/Someone-who-deserves-it",
     "cover" => "images/art/art-06.png",
     "fullsize" => "images/art/art-06.png",
     "photos" =>
@@ -92,8 +98,9 @@ $proyectos = [
   ],
   [
     "id" => "6",
-    "name" => "nombre7",
+    "name" => "New Fusion FanART (SU)",
     "date" => "00/00/00",
+    "behance" => "https://www.behance.net/marmuller",
     "cover" => "images/art/art-07.png",
     "fullsize" => "images/art/art-07.png",
     "photos" =>
@@ -107,8 +114,9 @@ $proyectos = [
   ],
   [
     "id" => "7",
-    "name" => "nombre8",
+    "name" => "Ferus Concept",
     "date" => "00/00/00",
+    "behance" => "https://www.behance.net/gallery/21971049/Ferus-characters",
     "cover" => "images/art/art-08.png",
     "fullsize" => "images/art/art-08.png",
     "photos" =>
@@ -122,8 +130,9 @@ $proyectos = [
   ],
   [
     "id" => "8",
-    "name" => "nombre9",
+    "name" => "Feeling Nostalgic",
     "date" => "00/00/00",
+    "behance" => "https://www.behance.net/gallery/76630203/schooldays",
     "cover" => "images/art/art-09.png",
     "fullsize" => "images/art/art-09.png",
     "photos" =>
@@ -137,8 +146,9 @@ $proyectos = [
   ],
   [
     "id" => "9",
-    "name" => "nombre10",
+    "name" => "Shizue",
     "date" => "00/00/00",
+    "behance" => "https://www.behance.net/gallery/49440995/Nostalgia",
     "cover" => "images/art/art-10.png",
     "fullsize" => "images/art/art-10.png",
     "photos" =>
@@ -152,8 +162,9 @@ $proyectos = [
   ],
   [
     "id" => "10",
-    "name" => "nombre11",
+    "name" => "Tsukiyama Shuu (1)",
     "date" => "00/00/00",
+    "behance" => "https://www.behance.net/gallery/24186123/Dolce-Shuu",
     "cover" => "images/art/art-11.png",
     "fullsize" => "images/art/art-11.png",
     "photos" =>
@@ -167,8 +178,9 @@ $proyectos = [
   ],
   [
     "id" => "11",
-    "name" => "nombre12",
+    "name" => "Tsukiyama Shuu (2)",
     "date" => "00/00/00",
+    "behance" => "https://www.behance.net/gallery/24047763/Reflective-Shuu",
     "cover" => "images/art/art-12.png",
     "fullsize" => "images/art/art-12.png",
     "photos" =>

@@ -4,9 +4,10 @@
     <div class="centerText">
       <h1 style="margin:0 0 10px 0;">Algunos de mis trabajos</h1>
       <div class="centerText" style="margin-bottom:50px;">
-        <a href="#" class="filter"><span>#Ilustraciones</span></a>
-        <a href="#" class="filter"><span>#Ilustraciones</span></a>
-        <a href="#" class="filter"><span>#Ilustraciones</span></a>
+        <a href="https://www.behance.net/marmuller" class="filter"><span>Más en Behance</span></a>
+        <!-- <a href="#" class="filter"><span>#Ilustraciones</span></a>
+        <a href="#" class="filter"><span>#DiseñoGráfico</span></a>
+        <a href="#" class="filter"><span>#WebDesign</span></a> -->
       </div>
 </div>
   </div>
@@ -17,23 +18,20 @@
 
     <ul>
 
-      <?php //include("php/gallery-lightbox.php"); ?>
-
       <?php
 
         $n = 0;
 
         foreach ($proyectos as $proyecto) {
 
-          $id = $proyecto["id"] ;
-          $name = $proyecto["name"] ;
-          $date = $proyecto["date"] ;
+          $name = "'".$proyecto["name"]."'" ;
+          $behance = "'".$proyecto["behance"]."'" ;
           $cover = $proyecto["cover"] ;
           $fullsize = "'".$proyecto["fullsize"]."'" ;
 
           $n = $n + 1;
 
-          echo '<li class="previewGallery num'.$n.'" onclick="loadLightbox('.$fullsize.')" style="background-image:url('.$cover.');background-size:cover;background-position:center;">
+          echo '<li class="previewGallery num'.$n.'" onclick="loadLightbox('.$fullsize.','.$name.','.$behance.')" style="background-image:url('.$cover.');background-size:cover;background-position:center;">
           </li>
 
           ';

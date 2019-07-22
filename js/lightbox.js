@@ -1,5 +1,5 @@
 var lightbox = $('div.mylightbox');
-var closeLightbox = $('.imginfo a');
+var closeLightbox = $('.imginfo a.closeLightbox');
 var imgLightbox = $('img.fullsizeimage');
 var previewGallery = $('.previewGallery');
 
@@ -11,16 +11,23 @@ function openLightbox() {
 }
 
 // Elegir Imagen
-function loadLightbox(imgClicked) {
+function loadLightbox(imgClicked,imgName,imgLink) {
 
   var imgsrc = imgClicked;
-  console.log(imgsrc);
+  // console.log(imgsrc);
+  var imgtitle = imgName;
+  // console.log(imgbehance);
+  var imgbehance = imgLink;
+  // console.log(imgbehance);
 
   var elemImage = $('img.fullsizeimage');
-  // elemImage.src = imgsrc ;
   $(elemImage).attr("src",imgsrc);
 
-  console.log(elemImage);
+  var titulo = $('span.imgTitle');
+  $(titulo).text(imgtitle);
+
+  var enlace = $('a.behanceLink');
+  $(enlace).attr("href",imgbehance);
 
   openLightbox();
 

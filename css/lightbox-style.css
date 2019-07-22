@@ -22,10 +22,15 @@ div.mylightbox {
   max-width: 900px;
   max-height: 90%;
   margin: 10px;
+  overflow-y: scroll;
+}
+
+.lightbox-container::-webkit-scrollbar { 
+  display: none;
 }
 
 img.fullsizeimage {
-  width: 100%;
+  width: calc(100% - 10px);
   height: auto;
   border: 5px solid #fff;
   border-radius: 5px;
@@ -41,11 +46,19 @@ div.imginfo {
   font-size: 20px;
 }
 
-.imginfo a span {
+div.imginfo a {
+  color: #33cccc;
+  font-style: italic;
   cursor: pointer;
   font-size: 20px;
+  transition: 0;
 }
 
-.imginfo a span:hover {
+div.imginfo a:hover {
   border-bottom: 2px solid;
+  transition: 0;
+}
+
+div.imginfo a.closeLightbox {
+  /* color: #4d2e6b; */
 }

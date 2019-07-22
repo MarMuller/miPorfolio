@@ -3,13 +3,13 @@
   <meta charset="utf-8">
 
   <!-- PHP -->
-  <?php include 'php/gallery-data.php'; // la info de los proyectos está acá: ?>
+  <?php include 'data/gallery-data.php'; // la info de los proyectos está acá: ?>
 
   <!-- CSS -->
   <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
-  <link rel="stylesheet" type="text/css" href="css/block-style.css">
+  <link rel="stylesheet" type="text/css" href="css/aboutme-style.css">
   <link rel="stylesheet" type="text/css" href="css/gallery-style.css">
   <link rel="stylesheet" type="text/css" href="css/banner-style.css">
   <link rel="stylesheet" type="text/css" href="css/nav-style.css">

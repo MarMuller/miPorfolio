@@ -33,8 +33,8 @@
 
   <div class="fullcontainer">
 
-    <div class="left imagebg imgfullbody" style="height:800px;">
-      <!-- Parte 1 -->
+    <div class="left imagebg imgfullbody flex-centervertically">
+      <div> <img src="images/png/example-1.png" class="img100" alt=""> </div>
     </div>
 
     <div class="right verticalAlign" style="height:auto;">
@@ -122,7 +122,7 @@
 
 
 <!-- 4444 -->
-<div class="bg-container">
+<div id="soyIlustradora" class="bg-container">
 
   <div class="fullcontainer">
 
@@ -143,7 +143,7 @@
 
 
 <!-- 5555 -->
-<div class="bg-container">
+<div id="soyDisenadora" class="bg-container">
 
   <div class="fullcontainer">
 
@@ -164,7 +164,7 @@
 
 
 <!-- 6666 -->
-<div class="bg-container">
+<div id="soyProgramadora" class="bg-container">
 
   <div class="fullcontainer">
 
