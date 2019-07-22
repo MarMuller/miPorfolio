@@ -39,3 +39,9 @@ $(closeLightbox).click(function() {
   $(imgLightbox).css('display', 'none');
   $(lightbox).css('visibility', 'hidden');
 });
+
+$(lightbox).click(function() {
+  $(closeLightbox).css('display', 'none');
+  $(imgLightbox).css('display', 'none');
+  $(lightbox).css('visibility', 'hidden');
+});
