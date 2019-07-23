@@ -1,7 +1,16 @@
 $(document).ready(function(){
 
-  // BANNER
   var winHeight = $(window).height() ;
+  var winWidth = $(window).width() ;
+
+  // LOGO
+  // if (winWidth <= 768) {
+  //   $('div#logo').text('<?php echo file_get_contents("images/svg/marmuller-logo-01.svg"); ?>');
+  // } else {
+  //   $('div#logo').text('<?php echo file_get_contents("images/svg/marmuller-logo-02.svg"); ?>');
+  // }
+
+  // BANNER
   $('.banner').css('height', winHeight+'px');
   $('.img-container').css('height', winHeight+'px');
   $('.section').css('height', winHeight+'px');
@@ -58,8 +67,10 @@ $(document).ready(function(){
 
   window.onresize = function() {
 
-    // BANNER
     var winHeight = $(window).height() ;
+    var winWidth = $(window).height() ;
+
+    // BANNER
     $('.banner').css('height', winHeight+'px');
     $('.img-container').css('height', winHeight+'px');
     $('.section').css('height', winHeight+'px');
